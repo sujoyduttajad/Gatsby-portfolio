@@ -90,4 +90,10 @@
       width: 100%;
     }
   }
+
+  .primary-btn {
+    &:hover {
+      box-shadow: 2px 2px 10px rgb(71, 71, 71);
+    }
+  }
 }
