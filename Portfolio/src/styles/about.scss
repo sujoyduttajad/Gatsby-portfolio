@@ -70,9 +70,11 @@
         }
 
         @include media(">=phone", "<lgphone") {
+          @include flex(row, center, center);
           width: 100%;
         }
         @include media(">=lgphone", "<tablet") {
+          @include flex(row, center, center);
           width: 100%;
         }
         @include media(">=tablet", "<desktop") {
