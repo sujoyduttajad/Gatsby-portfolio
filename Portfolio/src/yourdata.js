@@ -1,16 +1,22 @@
 // Skills Icons
-import htmlIcon from "./images/html.svg"
-import cssIcon from "./images/css.svg"
+import htmlIcon from "./images/HTML5.svg"
+import cssIcon from "./images/css3.svg"
 import reactIcon from "./images/react.svg"
-import jsIcon from "./images/javascript.svg"
-import designIcon from "./images/design.svg"
+import jsIcon from "./images/JavaScript.svg"
+import designIcon from "./images/Figma.svg"
+import redux from "./images/Redux.svg"
+import sass from "./images/Sass.svg"
+import node from "./images/Node.js.svg"
+import next from "./images/Next.js.svg"
+import gatsby from "./images/Gatsby.svg"
 import codeIcon from "./images/code.svg"
+// import codeIcon from "./images/code.svg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
 import profilePic from "./images/Profile-pic.jpg"
-import dribbbleIcon from "./images/dribbble.svg"
-import instagramIcon from "./images/instagram.svg"
+import linkedin from "./images/Linkedin.svg"
+import facebook from "./images/facebook.svg"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -154,32 +160,27 @@ export default {
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     },
     {
-      img: codeIcon,
+      img: redux,
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     },
     {
-      img: codeIcon,
+      img: sass,
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     },
     {
-      img: codeIcon,
+      img: node,
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     },
     {
-      img: codeIcon,
+      img: next,
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     },
     {
-      img: codeIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      img: codeIcon,
+      img: gatsby,
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     },
@@ -210,11 +211,11 @@ export default {
     //   url: "https://www.codepen.com/",
     // },
     {
-      img: dribbbleIcon,
+      img: linkedin,
       url: "https://dribbble.com/chetanverma",
     },
     {
-      img: instagramIcon,
+      img: facebook,
       url: "https://www.instagram.com/",
     },
   ],
