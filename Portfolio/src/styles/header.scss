@@ -10,6 +10,7 @@
   h2 {
     font-size: 1rem;
     text-align: center;
+    margin: auto 0;
     @include media(">=phone", "<lgphone") {
       font-size: 14px;
     }
@@ -20,9 +21,39 @@
       font-size: 16px;
     }
     .firstName {
+      width: 50%;
       font-size: 2rem;
       font-weight: 500;
+      color:#fff;
+      background-color: #0099e8;
+      transition: all 0.9s ease-in-out;
+
+      // &::before {
+      //   content:"";
+      //   background-color:#0099e8;
+      //   height:1.2em;
+      //   position:absolute;
+      //   z-index:-1;
+      //   filter:url(#marker-shape);
+      //   left:-0.15em;
+      //   padding:0 0.2em;
+      //   animation-name: highlight-animation;
+      //   animation-duration: 0.6s;
+      //   animation-delay: 0.2s;
+      //   animation-timing-function: ease;
+      //   animation-fill-mode: forwards;
+      // }
+      // &::after {
+      //   left: 19em;
+      // }
+      // @keyframes highlight-animation {
+      //   from {width:5em;}
+      //   to {width:2.5em;}
+      // }
+      
     }
+
+    
   }
   .heading-wrapper {
     h1 {
