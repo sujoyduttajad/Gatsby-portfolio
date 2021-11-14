@@ -1,13 +1,41 @@
+
+
+@mixin flex($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+}
+
 .navbar-wrapper {
   width: 80vw;
   margin-top: 10vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   .name {
+    @include flex(row, flex-start, center);
     font-weight: 600;
-    width: 20vw;
+    width: 30vw;
+
+    p {
+      font-weight: 100;
+      padding-left: 0.5em;
+      width: fit-content;
+      margin: 0;
+      padding-right: 0.5em;
+    }
+    img {
+      width: 2rem;
+      height: 2rem;
+    }
+    span {
+      @include flex(row, flex-start, center);
+      width: fit-content;
+    }
   }
+
   .links-wrapper {
     button {
       text-decoration: none;
