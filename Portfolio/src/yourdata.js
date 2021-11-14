@@ -31,7 +31,7 @@ export default {
     "Highly effective at developing, designing and standardizing designs according to company brand and objectives. Ready to bring 3.5 years of related experience to a growth-oriented team.",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "sujoyduttajad@gmail.com",
 
   // End Header Details -----------------------
 
