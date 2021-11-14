@@ -8,7 +8,7 @@ import codeIcon from "./images/code.svg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
+// import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
 
@@ -175,10 +175,10 @@ export default {
   social: [
     // Add Or Remove The Link Accordingly
     { img: githubIcon, url: "https://github.com/chetanverma16" },
-    {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
-    },
+    // {
+    //   img: codepenIcon,
+    //   url: "https://www.codepen.com/",
+    // },
     {
       img: dribbbleIcon,
       url: "https://dribbble.com/chetanverma",
