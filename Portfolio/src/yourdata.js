@@ -38,7 +38,7 @@ export default {
   // Work Section ------------------------
   projects: [
     {
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "React Landing page", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -48,7 +48,7 @@ export default {
       url: "http://chetanverma.com/",
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "BeatsUp Music App", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -58,7 +58,7 @@ export default {
       url: "http://chetanverma.com/",
     },
     {
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "Join Chat App", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -68,7 +68,7 @@ export default {
       url: "http://chetanverma.com/",
     },
     {
-      title: "Project Four", //Project Title - Add Your Project Title Here
+      title: "Redux Memory Game", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -78,7 +78,7 @@ export default {
       url: "http://chetanverma.com/",
     },
     {
-      title: "Project Five", //Project Title - Add Your Project Title Here
+      title: "Project Management Tool", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -88,7 +88,7 @@ export default {
       url: "http://chetanverma.com/",
     },
     {
-      title: "Project Six", //Project Title - Add Your Project Title Here
+      title: "Gatsby Portfolio", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
