@@ -18,6 +18,13 @@
   font-family: "Montserrat";
 }
 
+@mixin flex($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+}
+
 body {
   margin: 0;
   padding: 0;
