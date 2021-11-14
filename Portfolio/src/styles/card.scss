@@ -9,14 +9,22 @@
   background-repeat: no-repeat;
   background-position: center;
 
+  &:hover {
+    background-color: rgba(73, 73, 73, 0.7);
+  }
+
   .content {
     font-family: "Open Sans";
     text-align: center;
     padding: 10px;
     opacity: 0;
+    height: 100%;
     transition: all 500ms ease-in-out;
     transform: translate(0, 20px);
     cursor: pointer;
+    &:hover {
+      background-color: rgba(73, 73, 73, 0.7);
+    }
     h1 {
       font-size: 14px;
       color: white;
@@ -28,10 +36,12 @@
     }
 
     .btn {
-      background-color: black;
-      color: white;
+      background-color: #EDEDED;
+      color: #333;
       padding: 10px;
       text-decoration: none;
+      font-weight: 900;
+      font-family: inherit;
     }
     &:hover {
       opacity: 1;
