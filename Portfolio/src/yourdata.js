@@ -115,7 +115,7 @@ export default {
   aboutParaOne:
     "Hi there!",
   aboutParaTwo:
-    "I have 3.5 years of experience in Frontend development that comprises an impresive tech-stack of Next.js, React, Redux, Node, SASS, JavaScript, HTML5, CSS3, Bootstrap",
+    "I have 3.5 years of experience in Frontend development that comprises an impresive tech-stack of Next.js, React, Redux, Node, SASS, MongoDB, JavaScript, HTML5, CSS3, Bootstrap, Styled-components, Tailwind-css",
   aboutParaThree:
     "I am a photographer also enjoy playing guitar in my free time. As a fun fact I'm learning cooking these days.",
   aboutImage:
