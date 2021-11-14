@@ -46,7 +46,7 @@ const Header = () => {
               }`}
               className="primary-btn"
             >
-              CONNECT WITH ME
+              SEND A MAIL
             </a>
           </Fade>
         </div>

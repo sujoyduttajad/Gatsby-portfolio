@@ -17,12 +17,12 @@ export default {
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "",
+  name: "Sujoy",
   headerTagline: [
     //Line 1 For Header
-    "Hi, there!",
+    "Building Stunning Apps",
     //Line 2 For Header
-    "I'm Sujoy",
+    "UI/UX Designer",
     //Line 3 For Header
     "Frontend Developer",
   ],
