@@ -9,7 +9,7 @@ const Header = () => {
         <div className="header-wrapper">
           <Fade bottom>
             <h2>
-              Hi, I'm <span>{data.name}{" "}</span>
+              Hi, I'm <span className="firstName">{data.name}{" "}</span>
               <span role="img" aria-label="Emoji">
                 👋
               </span>

@@ -1,3 +1,5 @@
+
+
 .header-wrapper {
   width: 80vw;
   margin-top: 10vh;
@@ -16,6 +18,10 @@
     }
     @include media(">=tablet", "<desktop") {
       font-size: 16px;
+    }
+    .firstName {
+      font-size: 2rem;
+      font-weight: 500;
     }
   }
   .heading-wrapper {
