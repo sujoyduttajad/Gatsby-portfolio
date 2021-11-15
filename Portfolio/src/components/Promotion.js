@@ -19,7 +19,7 @@ const Promotion = () => {
         }
       },
       {
-        title: "May 1940",
+        title: "May 1972",
         cardTitle: "Dunkirk",
         cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
         cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
@@ -41,7 +41,7 @@ const Promotion = () => {
             <h1>{data.promotionHeading}</h1>
           </Fade>
             <div style={{ width: "500px", height: "400px" }}>
-            <Chrono items={items} />
+            <Chrono items={items} mode="VERTICAL_ALTERNATING" />
             </div>
         </div>
       </div>
