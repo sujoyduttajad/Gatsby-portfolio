@@ -12,7 +12,7 @@
     display: grid;
     margin-top: 20px;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 1em;
 
     @include media(">=phone", "<lgphone") {
       grid-template-columns: 1fr;
@@ -22,6 +22,11 @@
     }
     @include media(">=tablet", "<desktop") {
       grid-template-columns: 1fr 1fr;
+      grid-gap: 1em;
+    }
+    @include media(">=desktop") {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 5em;
     }
   }
 }
