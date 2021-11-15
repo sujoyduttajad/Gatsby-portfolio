@@ -187,18 +187,18 @@ export default {
     {
       img: codeIcon,
       para:
-        "Problem solving for me became a necessity fro ma skill as I develop apps it's a must because often developers try to figure an enormous bug or issue which requires the involvement of Data Structures and Algorithms",
+        "Problem solving for me became a necessity from skill as I develop apps it's a must because often developers try to figure out an enormous bug or issue which requires the involvement of Data Structures and Algorithms",
     },
   ],
 
   // End Skills Section --------------------------
 
-  //   Promotion Section --------------------------
+  //   Work History Section --------------------------
 
   promotionHeading: "Work History",
   promotionPara:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  // End Promotion Section -----------------
+  //    End Work History Section -----------------
 
   //   Contact Section --------------
 
