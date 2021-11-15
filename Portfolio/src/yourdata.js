@@ -137,27 +137,27 @@ export default {
     {
       img: htmlIcon,
       para:
-        "I have more than 4 years of experience in creating websites and apps with HTML, I learned the concepts early but as I develop HTML5 came and continued to explore the standard markup language for Web pages",
+        "I have more than 4 years of experience in creating websites and apps with HTML, I learned the concepts early but as I develop HTML5 came and continued to explore the standard markup language for Web pages.",
     },
     {
       img: cssIcon,
       para:
-        "CSS is my favourite piece of the web to work styling is always my priority, from working with basic CSS and modules to SASS, Bootstrap, Material-UI, and Tailwind-CSS all need continued learning progression on this vast field",
+        "CSS is my favourite piece of the web to work styling is always my priority, from working with basic CSS and modules to SASS, Bootstrap, Material-UI, and Tailwind-CSS all need continued learning progression on this vast field.",
     },
     {
       img: jsIcon,
       para:
-        "JavaScript language is the backbone of the web, that's constantly changing and improving its ECMA scripts. Built a lot of projects, games, and web pages with the amalgamation of JavaScript, HTML, and CSS",
+        "JavaScript language is the backbone of the web, that's constantly changing and improving its ECMA scripts. Built a lot of projects, games, and web pages with the amalgamation of JavaScript, HTML, and CSS.",
     },
     {
       img: reactIcon,
       para:
-        "React is a frontend library based on JavaScript. For the past few years I had build multiple React projects from small games to medium-scale projects which includes a complete react ecosystem",
+        "React is a frontend library based on JavaScript. For the past few years I had build multiple React projects from small games to medium-scale projects which includes a complete react ecosystem.",
     },
     {
       img: designIcon,
       para:
-        "From the UI/UX specialization from coursera that helped me to design interfaces ultimately resulting in seamless User experience. I have designed industry specific to small-scale design mockups and prototypes using Figma nad Sketch",
+        "From the UI/UX specialization from coursera that helped me to design interfaces ultimately resulting in seamless User experience. I have designed industry specific to small-scale design mockups and prototypes using Figma nad Sketch.",
     },
     {
       img: redux,
@@ -167,27 +167,27 @@ export default {
     {
       img: sass,
       para:
-        "SASS stands for Syntactically Awesome Style Sheets, which is used as a pre-processor for stylling sheets allowing the CSS to be more robust. Highly experienced with SASS in building both medium and large scale applications",
+        "SASS stands for Syntactically Awesome Style Sheets, which is used as a pre-processor for stylling sheets allowing the CSS to be more robust. Highly experienced with SASS in building both medium and large scale applications.",
     },
     {
       img: node,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Node.js an open-source cross-platform runtime environment for executing JavaScript code other than the browser is the most powerful tool I have used to build numerous API's and full MERN stack applications.",
     },
     {
       img: next,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Another powerful tool is the React based framework called Next.js, I am a big fan of the Next.js features as a product thus build various applications and even planned, designed & architected a full-scale enterprise web app.",
     },
     {
       img: gatsby,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "As I explored the React ecosystem I stumbled upon a static site generator based on React called Gatsby JS. I'm still new to it and my learning process continues as I build more projects with Gatsby JS ",
     },
     {
       img: codeIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Problem solving for me became a necessity fro ma skill as I develop apps it's a must because often developers try to figure an enormous bug or issue which requires the involvement of Data Structures and Algorithms",
     },
   ],
 
