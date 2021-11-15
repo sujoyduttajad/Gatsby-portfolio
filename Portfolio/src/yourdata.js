@@ -137,12 +137,12 @@ export default {
     {
       img: htmlIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "I have more than 4 years of experience in creating websites and apps with HTML, I learned the concepts early but as I develop HTML5 came and continued to explore the standard markup language for Web pages.",
     },
     {
       img: cssIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "CSS is my favourite piece of the web to work styling is always my priority, from working with basic CSS and modules to SASS, Bootstrap, Material-UI, and Tailwind-CSS all need continued learning progression on this vast field",
     },
     {
       img: jsIcon,
