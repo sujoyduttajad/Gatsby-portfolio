@@ -8,6 +8,7 @@
     font-size: 3rem;
     line-height: 20px;
   }
+  
 
   .skills-grid {
     display: grid;
@@ -22,6 +23,13 @@
     }
     @include media(">=tablet", "<desktop") {
       grid-template-columns: 1fr 1fr;
+      column-gap: 3em;
+      row-gap: 1em;
+    }
+    @include media(">=desktop") {
+      grid-template-columns: 1fr 1f 1fr 1fr;
+      column-gap: 3.8em;
+      row-gap: 1.6em;
     }
     .skill {
       display: flex;
