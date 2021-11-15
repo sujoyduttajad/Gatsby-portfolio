@@ -191,7 +191,7 @@ export default {
     },
   ],
 
-  // End Skills Section --------------------------
+  //   End Skills Section --------------------------
 
   //   Work History Section --------------------------
 
@@ -204,15 +204,14 @@ export default {
 
   contactSubHeading: "Let's create your next experience together",
   social: [
-    // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/sujoyduttajad" },
-    // {
-    //   img: codepenIcon,
-    //   url: "https://www.codepen.com/",
-    // },
+    
+    { 
+      img: githubIcon, 
+      url: "https://github.com/sujoyduttajad" 
+    },
     {
       img: linkedin,
-      url: "https://dribbble.com/chetanverma",
+      url: "https://www.linkedin.com/in/sujoy-dutta-b41746a9/",
     },
     {
       img: facebook,
@@ -223,4 +222,4 @@ export default {
   // End Contact Section ---------------
 }
 
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com
+
