@@ -19,8 +19,6 @@ import linkedin from "./images/Linkedin.svg"
 import twitter from "./images/twitter.svg"
 
 export default {
-  //(Please Do Not Remove The comma(,) after every variable)
-  //Change The Website Template
 
   //   Header Details ---------------------
   name: "Sujoy",
@@ -41,7 +39,7 @@ export default {
 
   // End Header Details -----------------------
 
-  // Work Section ------------------------
+  // Project Section ------------------------
   projects: [
     {
       title: "React Landing page", //Project Title - Add Your Project Title Here
@@ -103,19 +101,9 @@ export default {
       //Project URL
       url: "https://github.com/sujoyduttajad/Gatsby-portfolio",
     },
-
-    /*
-    If You Want To Add More Project just Copy and Paste This At The End
-    ,{
-        title: 'Project Five',
-        para: 'Something Amazing',
-        imageSrc: "",
-        url: ''
-    }
-    */
   ],
 
-  // End Work Section -----------------------
+  // End Projects Section -----------------------
 
   // About Secton --------------
   aboutParaOne:
