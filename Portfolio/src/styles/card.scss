@@ -15,7 +15,7 @@
   }
 
   .content {
-    font-family: "Open Sans";
+    font-family: "inherit";
     text-align: center;
     padding: 10px;
     opacity: 0;
@@ -23,6 +23,9 @@
     transition: all 500ms ease-in-out;
     transform: translate(0, 20px);
     cursor: pointer;
+    margin: 0 auto;
+    padding-top: 6em;
+    
     &:hover {
       background-color: rgba(73, 73, 73, 0.7);
     }
@@ -42,7 +45,6 @@
       padding: 10px;
       text-decoration: none;
       font-weight: 900;
-      font-family: inherit;
     }
     &:hover {
       opacity: 1;
