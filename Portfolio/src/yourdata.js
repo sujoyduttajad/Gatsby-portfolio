@@ -56,7 +56,7 @@ export default {
     {
       title: "BeatsUp Music App", //Project Title - Add Your Project Title Here
       para:
-        "My own personel project of designing and developing from scratch a phenomenal music app for chill lofi-beats genre, build with React and state managed by Redux this app currently fetches a list of music titles with awesome styling using custom SASS & Material-UI components, while animation is handled by lotti-interactivity and navigation by react-router. Still in progress to add more functionality ",
+        "A Design to Development music app for chill lofi-beats genre from scratch, built with React and state managed by Redux. It fetches a list of mp3 files organized in a grid based layout and styled custom SASS & Material-UI components, animation by lotti-interactivity and navigation by react-router.",
       //Project Image 
       imageSrc:
         "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
