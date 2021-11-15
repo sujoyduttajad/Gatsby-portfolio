@@ -16,7 +16,7 @@ import codeIcon from "./images/code.svg"
 import githubIcon from "./images/github.svg"
 import profilePic from "./images/Profile-pic.jpg"
 import linkedin from "./images/Linkedin.svg"
-import facebook from "./images/facebook.svg"
+import twitter from "./images/twitter.svg"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -214,8 +214,8 @@ export default {
       url: "https://www.linkedin.com/in/sujoy-dutta-b41746a9/",
     },
     {
-      img: facebook,
-      url: "https://www.instagram.com/",
+      img: twitter,
+      url: "https://twitter.com/SujoyDutta4290",
     },
   ],
 
