@@ -15,6 +15,7 @@ import codeIcon from "./images/code.svg"
 import reduxGame from './images/redux-card-game.png'
 import chatApp from './images/chat-app.png'
 import projectMgm from './images/project-manager.png'
+import landingPage from './images/landing-page.png'
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -56,7 +57,7 @@ export default {
         "This gorgeous responsive website is a static landing page built with React, styled-components, react-router, and react hooks. All the components are reusable and can be used for any dynamic content. It's fully responsive for all the platforms and hosted in netlify",
       //Project Image 
       imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        landingPage,
       //Project URL
       url: "https://github.com/sujoyduttajad/Landing-Page-React",
     },
@@ -76,7 +77,7 @@ export default {
         "My goal was to build a real-time Chat app that allows users to create their own spaces called room to interact with a group of people and send emojis. This app is build using web sockets that Socket.io uses internally.",
       //Project Image 
       imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        chatApp,
       //Project URL
       url: "https://github.com/sujoyduttajad/Socket.io-Chat-Application",
     },
@@ -86,7 +87,7 @@ export default {
         "A memory game build with React-Redux core functionalities, this app tests the true skills of an ideatic memory",
       //Project Image
       imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        reduxGame,
       //Project URL
       url: "https://github.com/sujoyduttajad/Redux-Card-game",
     },
@@ -96,7 +97,7 @@ export default {
         "This app is a Project Management tool with authentication and cloud functionalities where users can create Projects, edit them, delete them, and keep a track of them all in one SPA. To build this I used React, Redux, React-Redux, Thunk, and Firebase. This app will have authentication(sign-up & sign-in) and features like Cloud security, Route Guarding, Cloud functions.",
       //Project Image
       imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        projectMgm,
       //Project URL
       url: "https://github.com/sujoyduttajad/Project-management-tool",
     },
