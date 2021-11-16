@@ -17,6 +17,12 @@ const Promotion = () => {
             <Chrono 
               items={data.workHistory}
               hideControls={true} 
+              theme={{ 
+                primary: "#2F9DF1",
+                secondary: "#333",
+                cardForeColor: "#2F9DF1",
+                titleColor: "#fff"
+              }}
               mode="VERTICAL_ALTERNATING" 
             />
             </div>
