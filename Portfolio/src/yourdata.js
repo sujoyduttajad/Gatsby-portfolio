@@ -112,11 +112,11 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Hi there!",
+    "I'm a geeky programmer and an enthusiastic learner. A Goal-oriented Web Developer who brings a strong commitment to collaboration and solutions-oriented problem-solving in Frontend Development and UI/UX design. I am always looking forward to building something thought-provoking.",
   aboutParaTwo:
-    "I have 3.5 years of experience in Frontend development that comprises an impresive tech-stack of Next.js, React, Redux, Node, SASS, MongoDB, JavaScript, HTML5, CSS3, Bootstrap, Styled-components, Tailwind-css",
+    "Bringing a total of 3.5 years of experience in Frontend development that comprises an impresive tech-stack of Next.js, React, Redux, Node, SASS, MongoDB, JavaScript, HTML5, CSS3, Bootstrap, Styled-components, Tailwind-css",
   aboutParaThree:
-    "I am a photographer also enjoy playing guitar in my free time. As a fun fact I'm learning cooking these days.",
+    "Love to do photographeraphy(Landscapes and Cityscapes) also enjoy playing guitar in my free time. As a fun fact I'm learning cooking these days.",
   aboutImage:
     profilePic,
 
