@@ -18,7 +18,7 @@ const Promotion = () => {
               items={data.workHistory}
               hideControls={true} 
               scrollable={false}
-              useReadMore={false}
+              // useReadMore={false}
               theme={{ 
                 primary: "#2F9DF1",
                 secondary: "#333",
