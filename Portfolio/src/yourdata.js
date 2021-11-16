@@ -194,7 +194,14 @@ export default {
       title: "Dec 2020 - Present",
       cardTitle: "Makse Services Pvt. Ltd.",
       cardSubtitle:"Frontend Developer, (Location - Bangalore, Karnataka)",
-      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+      cardDetailedText: [
+        "Currently working as full-time Front End Developer and UI designer on Performance management application.",
+        "Developed designs and applications to meet specific requirements, such as AI-enabled products with unique Drag-n-Drop layouts and enhanced Serverless solutions to handle user traffic.",
+        "Employed coding practices based on commonly accepted standards to establish web-app layout and user interface.",
+        "Developed user-oriented visuals and features using front-end frameworks like Next.js and React.js to provide increased dynamic web-based performance.",
+        "Built user interfaces, sitemaps, wireframes, mockups, prototypes using Figma , data visualizations using D3.js , built Drag-n-Drop and resizable scheduler system using react-DnD , react-Rnd , redux , thunk, Context API, Express, Node, and designed overall user experience, resulting in a 36% increase in sales.",
+        "Achieved the individual contribution award or Pineapple award by completing100% target on delivering a fantastic result on a complex project that I have been working for the last one year with accuracy and efficiency."
+      ],
       media: {  
         type: "IMAGE",
         source: {
@@ -206,7 +213,9 @@ export default {
       title: "June 2019 - July 2020",
       cardTitle: "MetricStream",
       cardSubtitle:"Frontend Developer, (Location - Bangalore, Karnataka)",
-      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+      cardDetailedText: [
+        ""
+      ],
       media: {  
           type: "IMAGE",
           source: {
@@ -217,8 +226,10 @@ export default {
     {
       title: "July 2018 - May 2019",
       cardTitle: "Wipro Technologies",
-      cardSubtitle:"Project Engineer, (Location - Bangalore, Karnataka)",
-      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+      cardSubtitle:"Project Engineer, ",
+      cardDetailedText: [
+        ""
+      ],
       media: {  
           type: "IMAGE",
           source: {
