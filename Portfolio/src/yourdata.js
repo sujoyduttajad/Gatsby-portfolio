@@ -70,7 +70,7 @@ export default {
       imageSrc:
         BeatsUp,
       //Project URL
-      url: "http://chetanverma.com/",
+      url: "https://cryptic-obscure96-fb3bb1.netlify.app/",
     },
     {
       title: "Join Chat App", //Project Title - Add Your Project Title Here
