@@ -193,7 +193,7 @@ export default {
     {
       title: "Dec 2020 - Present",
       cardTitle: "Makse Services Pvt. Ltd.",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
+      cardSubtitle:"Frontend Developer, (Location - Bangalore, Karnataka)",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
       media: {  
         type: "IMAGE",
@@ -205,7 +205,7 @@ export default {
     {
       title: "June 2019 - July 2020",
       cardTitle: "MetricStream",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
+      cardSubtitle:"Frontend Developer, (Location - Bangalore, Karnataka)",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
       media: {  
           type: "IMAGE",
@@ -217,7 +217,7 @@ export default {
     {
       title: "July 2018 - May 2019",
       cardTitle: "Wipro Technologies",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
+      cardSubtitle:"Project Engineer, (Location - Bangalore, Karnataka)",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
       media: {  
           type: "IMAGE",
