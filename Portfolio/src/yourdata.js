@@ -18,6 +18,11 @@ import profilePic from "./images/Profile-pic.jpg"
 import linkedin from "./images/Linkedin.svg"
 import twitter from "./images/twitter.svg"
 
+// Company Icon
+import Wipro from "./images/wipro.png"
+import metricstream from "./images/metricstream.png"
+import MakseGroup from "./images/MakseGroup.png"
+
 export default {
 
   //   Header Details ---------------------
@@ -193,7 +198,7 @@ export default {
       media: {  
         type: "IMAGE",
         source: {
-          url: "https://images.unsplash.com/photo-1633113214866-961efd94c84d?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+          url: MakseGroup
         }
       }
     },
@@ -205,7 +210,7 @@ export default {
       media: {  
           type: "IMAGE",
           source: {
-            url: "https://images.unsplash.com/photo-1633113214866-961efd94c84d?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+            url: metricstream
           }
             }
     },
@@ -217,7 +222,7 @@ export default {
       media: {  
           type: "IMAGE",
           source: {
-            url: "https://images.unsplash.com/photo-1633113214866-961efd94c84d?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+            url: Wipro
           }
             }
     },  
