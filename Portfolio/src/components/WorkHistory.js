@@ -7,7 +7,7 @@ const WorkHistory = () => {
 
 
   return (
-    <section className="section">
+    <section className="section" id="employement">
       <div className="container">
         <div className="promotion-container">
           <Fade bottom cascade>
