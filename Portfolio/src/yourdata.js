@@ -200,7 +200,8 @@ export default {
 " Employed coding practices based on commonly accepted standards to establish web-app layout and user interface.",
 " Developed user-oriented visuals and features using front-end frameworks like Next.js and React.js to provide increased dynamic web-based performance.",
 " Built user interfaces, sitemaps, wireframes, mockups, prototypes using Figma , data visualizations using D3.js , built Drag-n-Drop and resizable scheduler system using react-DnD , react-Rnd , redux , thunk, Context API, Express, Node, and designed overall user experience, resulting in a 36% increase in sales.",
-" Achieved the individual contribution award or Pineapple award by completing100% target on delivering a fantastic result on a complex project that I have been working for the last one year with accuracy and efficiency."
+" Achieved the individual contribution award or Pineapple award by completing100% target on delivering a fantastic result on a complex project that I have been working for the last one year with accuracy and efficiency.",
+"Managed full-cycle design tasks, handling phases from conception to completion while maintaining guidelines throughout.",
       ],
       media: {  
         type: "IMAGE",
@@ -214,7 +215,12 @@ export default {
       cardTitle: "MetricStream",
       cardSubtitle:"Frontend Developer, (Location - Bangalore, Karnataka)",
       cardDetailedText: [
-        ""
+        "Collaborated with stakeholders during development processes to confirm creative proposals and design best practices.",
+        "Adhered to internal risk control and liability mitigation guidelines.",
+        "Boosted web traffic by improving accessibility, User Interface and User Experience.",
+        "Developed user-oriented visuals and features using front-end technologies like JavaScript, HTML5, CSS3, Bootstrap, Node.js, Express, React-Redux, RESTful services to define business logic that generates robust user experience, thus improving configurability of Governance, Risk, and Compliance Applications by 70% and increases customer satisfaction by 25%.",
+        "Consulted with customers to gather requirements and discuss design choices.",
+        "Worked in Agile-driven environment comprising of Atlassian products like Confluence and Jira and DevOps tools like Docker and Jenkins to effectively maintain project timelines and utilize available resources.",
       ],
       media: {  
           type: "IMAGE",
@@ -226,9 +232,11 @@ export default {
     {
       title: "July 2018 - May 2019",
       cardTitle: "Wipro Technologies",
-      cardSubtitle:"Project Engineer, ",
+      cardSubtitle:"Project Engineer, (Location - Bangalore, Karnataka) ",
       cardDetailedText: [
-        ""
+        "Worked on Enterprise Content Management (ECM) and delivered dynamic content 16% faster. Built HTML templates using Pug(JADE) for client-based application.",
+        "Contributed to Document generation of insurance clients with Papyrus tool and construction of input responses in SOMS by increasing customer satisfaction. Tech stack consists of JavaScript, SOAP UI, HTML, CSS, Bootstrap, JADE(PUG), Node, and Express.",
+        "Prepared variety of different written communications, reports and documents to ensure smooth operations.",
       ],
       media: {  
           type: "IMAGE",
