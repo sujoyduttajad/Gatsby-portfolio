@@ -191,7 +191,7 @@ export default {
   promotionHeading: "Work History",
   workHistory: [
     {
-      title: "May 1940",
+      title: "Dec 2020 - Present",
       cardTitle: "Dunkirk",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
@@ -203,7 +203,7 @@ export default {
       }
     },
     {
-      title: "May 1972",
+      title: "June 2019 - July 2020",
       cardTitle: "Dunkirk",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
@@ -215,7 +215,7 @@ export default {
             }
     },
     {
-      title: "Sep 1990",
+      title: "July 2018 - May 2019",
       cardTitle: "Dunkirk",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
