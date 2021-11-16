@@ -10,7 +10,11 @@ import node from "./images/Node.js.svg"
 import next from "./images/Next.js.svg"
 import gatsby from "./images/Gatsby.svg"
 import codeIcon from "./images/code.svg"
-// import codeIcon from "./images/code.svg"
+
+// projects Icon
+import reduxGame from './images/redux-card-game.png'
+import chatApp from './images/chat-app.png'
+import projectMgm from './images/project-manager.png'
 
 // Social Icon
 import githubIcon from "./images/github.svg"
