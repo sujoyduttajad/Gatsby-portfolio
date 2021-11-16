@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 import { Chrono } from "react-chrono";
 
-const Promotion = () => {
+const WorkHistory = () => {
 
 
   return (
@@ -36,4 +36,4 @@ const Promotion = () => {
   )
 }
 
-export default Promotion
+export default WorkHistory
