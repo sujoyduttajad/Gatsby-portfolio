@@ -17,6 +17,7 @@ const Promotion = () => {
             <Chrono 
               items={data.workHistory}
               hideControls={true} 
+              scrollable={false}
               theme={{ 
                 primary: "#2F9DF1",
                 secondary: "#333",
