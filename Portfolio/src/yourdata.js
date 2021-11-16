@@ -192,7 +192,7 @@ export default {
   workHistory: [
     {
       title: "Dec 2020 - Present",
-      cardTitle: "Dunkirk",
+      cardTitle: "Makse Services Pvt. Ltd.",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
       media: {  
@@ -204,7 +204,7 @@ export default {
     },
     {
       title: "June 2019 - July 2020",
-      cardTitle: "Dunkirk",
+      cardTitle: "MetricStream",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
       media: {  
@@ -216,7 +216,7 @@ export default {
     },
     {
       title: "July 2018 - May 2019",
-      cardTitle: "Dunkirk",
+      cardTitle: "Wipro Technologies",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
       media: {  

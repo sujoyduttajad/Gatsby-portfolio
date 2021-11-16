@@ -14,7 +14,11 @@ const Promotion = () => {
             <h1>{data.promotionHeading}</h1>
           </Fade>
             <div>
-            <Chrono items={data.workHistory} mode="VERTICAL_ALTERNATING" />
+            <Chrono 
+              items={data.workHistory}
+              hideControls={true} 
+              mode="VERTICAL_ALTERNATING" 
+            />
             </div>
         </div>
       </div>
