@@ -16,6 +16,7 @@ import reduxGame from './images/redux-card-game.png'
 import chatApp from './images/chat-app.png'
 import projectMgm from './images/project-manager.png'
 import landingPage from './images/landing-page.png'
+import BeatsUp from './images/BeatsUp.png'
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -67,7 +68,7 @@ export default {
         "A Design to Development music app for chill lofi-beats genre from scratch, built with React and state managed by Redux. It fetches a list of mp3 files organized in a grid based layout and styled custom SASS & Material-UI components, animation by lotti-interactivity and navigation by react-router.",
       //Project Image 
       imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+        BeatsUp,
       //Project URL
       url: "http://chetanverma.com/",
     },
