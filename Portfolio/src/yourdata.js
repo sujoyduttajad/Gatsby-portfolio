@@ -17,6 +17,7 @@ import chatApp from './images/chat-app.png'
 import projectMgm from './images/project-manager.png'
 import landingPage from './images/landing-page.png'
 import BeatsUp from './images/BeatsUp.png'
+import GatsbyPortfolio from './images/Gatsby-portfolio.png'
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -108,7 +109,7 @@ export default {
         "A smooth scroll minimalistic dev portfolio built with Gatsby.js used Yarn to manage the packages  that includes react-helmet for managing SEO, for animation I used react-reveal and react-scroll, SASS for stylling, a bunch of Gatsby plugins.", 
       //Project Image
       imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+        GatsbyPortfolio,
       //Project URL
       url: "https://github.com/sujoyduttajad/Gatsby-portfolio",
     },
