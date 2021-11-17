@@ -24,10 +24,6 @@
       grid-template-columns: 1fr 1fr;
       grid-gap: 1em;
     }
-    @include media(">=desktop") {
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 1em;
-    }
     @include media(">desktop") {
       grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 3em;
