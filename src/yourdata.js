@@ -1,5 +1,5 @@
 // Skills Icons
-import htmlIcon from "./images/HTML5.svg"
+import htmlIcon from "./images/html.svg"
 import cssIcon from "./images/css3.svg"
 import reactIcon from "./images/react.svg"
 import jsIcon from "./images/JavaScript.svg"
@@ -12,16 +12,16 @@ import gatsby from "./images/Gatsby.svg"
 import codeIcon from "./images/code.svg"
 
 // projects Icon
-import reduxGame from './images/redux-card-game.png'
-import chatApp from './images/chat-app.png'
-import projectMgm from './images/project-manager.png'
-import landingPage from './images/landing-page.png'
+import reduxGame from './images/reduxCardGame.png'
+import chatApp from './images/chatApp.png'
+import projectMgm from './images/projectManager.png'
+import landingPage from './images/landingPage.png'
 import BeatsUp from './images/BeatsUp.png'
-import GatsbyPortfolio from './images/Gatsby-portfolio.png'
+import GatsbyPortfolio from './images/gatsbyPortfolio.png'
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import profilePic from "./images/Profile-pic.jpg"
+import profilePic from "./images/profilePic.jpg"
 import linkedin from "./images/Linkedin.svg"
 import twitter from "./images/twitter.svg"
 
@@ -121,7 +121,7 @@ export default {
   aboutParaOne:
     "I'm a geeky programmer and an enthusiastic learner. A Goal-oriented Web Developer who brings a strong commitment to collaboration and solutions-oriented problem-solving in Frontend Development and UI/UX design. I am always looking forward to building something thought-provoking.",
   aboutParaTwo:
-    "Bringing a total of 3.5 years of experience in Frontend development that comprises an impresive tech-stack of Next.js, React, Redux, Node, SASS, MongoDB, JavaScript, HTML5, CSS3, Bootstrap, Styled-components, Tailwind-css",
+    "Bringing a total of 3.5 years of experience in Frontend development that comprises an impresive tech-stack of Next.js, React, Redux, Node, SASS, MongoDB, JavaScript, HTML, CSS, Bootstrap, Styled-components, Tailwind-css",
   aboutParaThree:
     "Love to do photographeraphy(Landscapes and Cityscapes) also enjoy playing guitar in my free time. As a fun fact I'm learning cooking these days.",
   aboutImage:
