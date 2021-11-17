@@ -8,7 +8,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 10px;
+  border-radius: 13px;
   box-sizing: border-box;
 
   &:hover {
@@ -24,15 +24,17 @@
     padding: 10px;
     opacity: 0;
     height: 100%;
-    transition: all 500ms ease-in-out;
+    transition: all 0.3s ease-in-out;
     transform: translate(0, 20px);
     cursor: pointer;
     margin: 0 auto;
     padding-top: 6em;
     border-radius: 9px;
+    backdrop-filter: blur(5px);
     
     &:hover {
       background-color: rgba(73, 73, 73, 0.7);
+      height: 100%;
     }
     h1 {
       font-size: 2em;
