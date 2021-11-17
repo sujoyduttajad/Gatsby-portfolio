@@ -35,14 +35,17 @@
     &:hover {
       background-color: rgba(73, 73, 73, 0.7);
       height: 100%;
+      opacity: 1;
+      transform: translate(0, 0px);
     }
     h1 {
-      font-size: 2em;
+      
+      font-size: 1.1em;
       font-weight: 400;
       color: white;
     }
     p {
-      font-size: 0.9em;
+      font-size: 0.7em;
       font-weight: 300;
       color: white;
       margin-bottom: 20px;
@@ -55,9 +58,18 @@
       text-decoration: none;
       font-weight: 600;
     }
-    &:hover {
-      opacity: 1;
-      transform: translate(0, 0px);
+    @include media(">desktop") {
+      height: 30vh;
+      h1 {
+        font-size: 2em;
+      }
+      p {
+        font-size: 0.9em;
+      }
+  
+      .btn {
+        font-weight: 600;
+      }
     }
   }
 }

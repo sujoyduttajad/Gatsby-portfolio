@@ -13,7 +13,7 @@ const WorkHistory = () => {
           <Fade bottom cascade>
             <h1>{data.promotionHeading}</h1>
           </Fade>
-            <div style={{ width: "95rem", height: "80rem" }}>
+            <div style={{ width: "80%", height: "50%" }}>
               <Chrono 
                 items={data.workHistory}
                 hideControls={true} 
