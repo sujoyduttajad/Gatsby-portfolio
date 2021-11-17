@@ -21,7 +21,7 @@ import GatsbyPortfolio from './images/gatsbyPortfolio.png'
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import profilePic from "./images/profilePic.jpg"
+import profilePic from "./images/profilePic.png"
 import linkedin from "./images/Linkedin.svg"
 import twitter from "./images/twitter.svg"
 
