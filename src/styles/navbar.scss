@@ -1,5 +1,4 @@
 
-
 @mixin flex($direction, $justify, $align) {
   display: flex;
   flex-direction: $direction;
@@ -54,6 +53,19 @@
     }
     .active {
       color: black;
+    }
+  }
+  @include media(">=phone", "<lgphone") {
+   .links-wrapper {
+     display: none;
+   }
+   .name {
+     width: 100%;
+   }
+  }
+  @include media(">=tablet", "<desktop") {
+    .name {
+      width: 20em;
     }
   }
 }
