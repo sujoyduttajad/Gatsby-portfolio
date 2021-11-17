@@ -58,17 +58,43 @@
       text-decoration: none;
       font-weight: 600;
     }
-    @include media(">desktop") {
+     @include media(">=tablet", "<desktop") {
+      padding-top: 1em;
+    }
+    @include media(">=desktop") {
       height: 30vh;
+      padding-top: 1em;
       h1 {
-        font-size: 2em;
+        font-size: 1.1em;
       }
       p {
-        font-size: 0.9em;
+        font-size: 0.6em;
       }
-  
-      .btn {
-        font-weight: 600;
+    }
+    @include media(">=smdesktop", "<mddesktop") {
+      h1 {
+        font-size: 1.2em;
+      }
+      p {
+        font-size: 0.7em;
+      }
+    }
+    @include media(">=mddesktop") {
+      padding-top: 1.4em;
+      h1 {
+        font-size: 1.3em;
+      }
+      p {
+        font-size: 0.7em;
+      }
+    }
+    @include media(">=lgdesktop") {
+      padding-top: 1.5em;
+      h1 {
+        font-size: 1.6em;
+      }
+      p {
+        font-size: 1em;
       }
     }
   }
