@@ -13,20 +13,19 @@ const WorkHistory = () => {
           <Fade bottom cascade>
             <h1>{data.promotionHeading}</h1>
           </Fade>
-            <div>
-            <Chrono 
-              items={data.workHistory}
-              hideControls={true} 
-              scrollable={false}
-              // useReadMore={false}
-              theme={{ 
-                primary: "#2F9DF1",
-                secondary: "#333",
-                cardForeColor: "#2F9DF1",
-                titleColor: "#fff"
-              }}
-              mode="VERTICAL_ALTERNATING" 
-            />
+            <div style={{ width: "95rem", height: "80rem" }}>
+              <Chrono 
+                items={data.workHistory}
+                hideControls={true} 
+                scrollable={false}
+                theme={{ 
+                  primary: "#2F9DF1",
+                  secondary: "#333",
+                  cardForeColor: "#2F9DF1",
+                  titleColor: "#fff"
+                }}
+                mode="VERTICAL_ALTERNATING" 
+              />
             </div>
         </div>
       </div>
