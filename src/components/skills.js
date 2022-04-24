@@ -1,7 +1,9 @@
-import React from "react"
+import React, { useState } from "react"
 import data from "../yourdata"
 
 const Skills = () => {
+  const [hover, setHover] = useState(false)
+
   return (
     <div className="section">
       <div className="container">
@@ -9,9 +11,14 @@ const Skills = () => {
           <h1>Skills</h1>
           <div className="skills-grid">
             {data.skills.map((skill, index) => (
-              <div className="skill" key={index}>
+              <div
+                className="skill"
+                key={index}
+                onMouseEnter={() => setHover(true)}
+                onMouseLeave={() => setHover(false)}
+              >
                 <img src={skill.img} alt="css"></img>
-                <p>{skill.para}</p>
+                {hover && <p>{skill.para}</p>}
               </div>
             ))}
           </div>
