@@ -12,7 +12,12 @@ const Skills = () => {
           <h1>Skills</h1>
           <div className="skills-grid">
             {data.skills.map((skill, index) => (
-              <SkillCard hover={hover} setHover={setHover} skill={skill} key={index} />
+              <SkillCard
+                hover={hover}
+                setHover={setHover}
+                skill={skill}
+                key={index}
+              />
             ))}
           </div>
         </div>
