@@ -20,11 +20,11 @@
     @include media(">=lgphone", "<tablet") {
       grid-template-columns: 1fr;
     }
-    @include media(">=tablet", "<desktop") {
+    @include media(">=tablet", "<smdesktop") {
       grid-template-columns: 1fr 1fr;
       grid-gap: 1em;
     }
-    @include media(">desktop") {
+    @include media(">smdesktop") {
       grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 3em;
     }
