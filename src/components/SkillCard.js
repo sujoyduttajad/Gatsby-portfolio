@@ -4,7 +4,8 @@ const SkillCard = ({ skill, hover, setHover }) => {
   return (
     <div
       className="skill"
-      onClick={() => setHover(true)}
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
     >
       <img src={skill.img} alt="skills" />
       {hover && (
