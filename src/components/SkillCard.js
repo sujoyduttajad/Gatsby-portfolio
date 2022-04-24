@@ -1,14 +1,17 @@
 import React from "react"
 
-const SkillCard = ({ skill, hover }) => {
+const SkillCard = ({ skill, hover, setHover }) => {
   return (
     <div
       className="skill"
-      onMouseEnter={() => setHover(true)}
-      onMouseLeave={() => setHover(false)}
+      onClick={() => setHover(true)}
     >
       <img src={skill.img} alt="skills" />
-      {hover && <p>{skill.para}</p>}
+      {hover && (
+        <div className="tooltip">
+          <span className="tooltiptext">{skill.para}</span>
+        </div>
+      )}
     </div>
   )
 }
