@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import data from "../yourdata"
+import SkillCard from "./SkillCard"
 
 const Skills = () => {
   const [hover, setHover] = useState(false)
@@ -11,15 +12,7 @@ const Skills = () => {
           <h1>Skills</h1>
           <div className="skills-grid">
             {data.skills.map((skill, index) => (
-              <div
-                className="skill"
-                key={index}
-                onMouseEnter={() => setHover(true)}
-                onMouseLeave={() => setHover(false)}
-              >
-                <img src={skill.img} alt="css"></img>
-                {hover && <p>{skill.para}</p>}
-              </div>
+              <SkillCard skill={skill} key={index} />
             ))}
           </div>
         </div>
