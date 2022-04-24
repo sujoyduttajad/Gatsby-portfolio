@@ -73,9 +73,12 @@
           @include flex(row, center, center);
           width: 100%;
         }
-        @include media(">=lgphone", "<tablet") {
-          @include flex(row, center, center);
-          width: 100%;
+        @include media(">=tablet", "<smdesktop") {
+          @include flex(row, flex-end, center);
+          img {
+            width: 15em;
+            height: 15em;
+          }
         }
         @include media(">=tablet", "<desktop") {
           width: 100%;
