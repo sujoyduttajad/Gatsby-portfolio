@@ -14,10 +14,11 @@
   @include media(">=phone", "<lgphone") {
     flex-direction: column-reverse;
   }
-  @include media(">=lgphone", "<tablet") {
-    flex-direction: column-reverse;
+  @include media(">=tablet", "<smdesktop") {
+    flex-direction: row;
+    align-items: flex-start;
   }
-  @include media(">=tablet", "<desktop") {
+  @include media(">=smdesktop", "<desktop") {
     flex-direction: column-reverse;
     align-items: center;
   }
@@ -26,8 +27,9 @@
     @include media(">=phone", "<lgphone") {
       width: 100%;
     }
-    @include media(">=lgphone", "<tablet") {
-      width: 100%;
+    @include media(">=tablet", "<smdesktop") {
+      width: 50%;
+      text-align: left;
     }
     @include media(">=tablet", "<desktop") {
       width: 100%;
@@ -50,7 +52,6 @@
   }
   .image-wrapper {
     @include flex(row, flex-end, center);
-    // overflow: hidden;
     width: 40vw;
 
         img {
@@ -69,18 +70,21 @@
             box-shadow: none;
         }
 
-        @include media(">=phone", "<lgphone") {
+        @include media(">=phone", "<tablet") {
           @include flex(row, center, center);
           width: 100%;
         }
         @include media(">=tablet", "<smdesktop") {
-          @include flex(row, flex-end, center);
+          @include flex(row, flex-end, flex-start);
+          width: 50%;
           img {
             width: 15em;
             height: 15em;
+            margin-left: 1em;
+            margin-top: 5em;
           }
         }
-        @include media(">=tablet", "<desktop") {
+        @include media(">=smdesktop", "<desktop") {
           width: 100%;
         }
   }
