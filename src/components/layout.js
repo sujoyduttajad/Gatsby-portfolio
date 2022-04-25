@@ -7,7 +7,7 @@
 
 import React from "react"
 import Navbar from "./Navbar"
-import "../styles/mains.scss"
+import "../styles/global.scss"
 
 const Layout = ({ children }) => {
   return (
