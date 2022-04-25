@@ -28,7 +28,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-sass`,
-    `gatsby-plugin-material-ui`,
+    // `gatsby-plugin-material-ui`,
     {
       resolve: `gatsby-plugin-material-ui`,
       options: {
