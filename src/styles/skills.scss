@@ -8,7 +8,6 @@
     font-size: 3rem;
     line-height: 20px;
   }
-  
 
   .skills-grid {
     display: grid;
@@ -36,40 +35,24 @@
       flex-direction: column;
       align-items: center;
       text-align: center;
-      background-color: #eee;
+      background-color: #fafbfb;
       padding: 1.8em 1em;
-      border-radius: 50%;
+      border-radius: 5px;
+      &:hover {
+        background-color: #eee;
+      }
       img {
         height: 3rem;
       }
       p {
         font-size: 14px;
       }
-      .tooltip {
-        position: relative;
-        top: 10em;
-        left: 30em;
-        display: inline-block;
-        border-bottom: 1px dotted black; 
-        .tooltiptext {
-          visibility: hidden;
-          width: 120px;
-          background-color: black;
-          color: #fff;
-          text-align: center;
-          padding: 5px 0;
-          border-radius: 6px;
-         
-          /* Position the tooltip text - see examples below! */
-          // position: absolute;
-          z-index: 10000;
-        }
-          &:hover .tooltiptext {
-          visibility: visible;
-        }
+      .span-header {
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 1.6;
+        letter-spacing: 0.0075em;
       }
     }
   }
 }
-
-
