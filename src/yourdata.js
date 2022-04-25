@@ -140,6 +140,8 @@ export default {
       id: 1,
       header: "HTML",
       img: htmlIcon,
+      primaryColor: "#cf4822",
+      secondColor: "#ebebeb",
       para:
         "I have more than 4 years of experience in creating websites and apps with HTML, I learned the concepts early but as I develop HTML5 came and continued to explore the standard markup language for Web pages.",
     },
@@ -147,6 +149,8 @@ export default {
       id: 2,
       header: "CSS",
       img: cssIcon,
+      primaryColor: "#1572b6",
+      secondColor: "#ebebeb",
       para:
         "CSS is my favourite piece of the web to work styling is always my priority, from working with basic CSS and modules to SASS, Bootstrap, Material-UI, and Tailwind-CSS all need continued learning progression on this vast field.",
     },
@@ -154,6 +158,8 @@ export default {
       id: 3,
       header: "JavaScript",
       img: jsIcon,
+      primaryColor: "#f5de19",
+      secondColor: "#000000",
       para:
         "JavaScript language is the backbone of the web, that's constantly changing and improving its ECMA scripts. Built a lot of projects, games, and web pages with the amalgamation of JavaScript, HTML, and CSS.",
     },
@@ -161,6 +167,8 @@ export default {
       id: 4,
       header: "React",
       img: reactIcon,
+      primaryColor: "#00d8ff",
+      secondColor: "#fff",
       para:
         "React is a frontend library based on JavaScript. For the past few years I had build multiple React projects from small games to medium-scale projects which includes a complete react ecosystem.",
     },
@@ -168,6 +176,8 @@ export default {
       id: 5,
       header: "Next.js",
       img: next,
+      primaryColor: "#262626",
+      secondColor: "#f1f1f1",
       para:
         "Another powerful tool is the React based framework called Next.js, I am a big fan of the Next.js features as a product thus build various applications and even planned, designed & architected a full-scale enterprise web app.",
     },
@@ -175,6 +185,8 @@ export default {
       id: 6,
       header: "Figma",
       img: designIcon,
+      primaryColor: "linear-gradient(90deg, rgba(242,78,30,1) 20%, rgba(255,114,98,1) 35%, rgba(162,89,255,1) 62%, rgba(25,188,254,1) 81%, rgba(9,207,131,1) 100%)",
+      secondColor: "#fff",
       para:
         "From the UI/UX specialization from coursera that helped me to design interfaces ultimately resulting in seamless User experience. I have designed industry specific to small-scale design mockups and prototypes using Figma nad Sketch.",
     },
@@ -182,6 +194,8 @@ export default {
       id: 7,
       header: "Redux",
       img: redux,
+      primaryColor: "#764abc",
+      secondColor: "#fff",
       para:
         "When it comes to large applications Redux plays an essential role in managing state in react applications. Used Redux in multiple react apps along with an industrial customer oriented web app.",
     },
@@ -189,6 +203,8 @@ export default {
       id: 8,
       header: "Sass",
       img: sass,
+      primaryColor: "#cd6799",
+      secondColor: "#fff",
       para:
         "SASS stands for Syntactically Awesome Style Sheets, which is used as a pre-processor for stylling sheets allowing the CSS to be more robust. Highly experienced with SASS in building both medium and large scale applications.",
     },
@@ -196,6 +212,8 @@ export default {
       id: 9,
       header: "Node.js",
       img: node,
+      primaryColor: "#83cd29",
+      secondColor: "#333",
       para:
         "Node.js an open-source cross-platform runtime environment for executing JavaScript code other than the browser is the most powerful tool I have used to build numerous API's and full MERN stack applications.",
     },
@@ -203,6 +221,8 @@ export default {
       id: 10,
       header: "Gatsby",
       img: gatsby,
+      primaryColor: "#663399",
+      secondColor: "#ffffff",
       para:
         "As I explored the React ecosystem I stumbled upon a static site generator based on React called Gatsby JS. I'm still new to it and my learning process continues as I build more projects with Gatsby JS ",
     },
@@ -210,6 +230,8 @@ export default {
       id: 11,
       header: "CMS",
       img: sanity,
+      primaryColor: "#f04939",
+      secondColor: "#f1f1f1",
       para:
         "Worked with a lot of CMS but Sanity CMS is my personnel favourite as it provides a structured approach to content authoring, providing a concise number of features to manage content",
     },
@@ -217,6 +239,8 @@ export default {
       id: 12,
       header: "Data Viz",
       img: d3,
+      primaryColor: "linear-gradient(123.31deg, #B84E51 11.09%, #F68E48 101.19%)",
+      secondColor: "#f1f1f1",
       para:
         "D3.js is an open-source JavaScript library that I have used for building lot of charts and graphs which gave me a lot of knowledge on data-handling and data visualisation",
     },
