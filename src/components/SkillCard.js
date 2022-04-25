@@ -10,17 +10,24 @@ const useStyles = makeStyles({
   button: {
     marginTop: "1em",
   },
-  closeButton: {
-    backgroundColor: "fff",
-    "&:hover": {
-      backgroundColor: "fff",
-    },
-  },
   dialogTitle: {
     display: "flex",
     justifyContent: "space-between",
   },
-})
+});
+
+const ColorButton = withStyles((theme) => ({
+    root: {
+      color: '#333',
+      backgroundColor: '#fff',
+      opacity: 0.8,
+      outline: 'none',
+      '&:hover': {
+        backgroundColor: '#fff',
+        opacity: 1
+      },
+    },
+  }))(Button);
 
 const DialogContent = withStyles(theme => ({
   root: {
@@ -68,13 +75,12 @@ const SkillCard = ({ skill }) => {
           }}
         >
           <h3 className="span-header">{skill.header}</h3>
-          <Button
+          <ColorButton
             variant="outlined"
-            className={classes.closeButton}
             onClick={handleClose}
           >
             Close
-          </Button>
+          </ColorButton>
         </DialogTitle>
         <DialogContent
           dividers
