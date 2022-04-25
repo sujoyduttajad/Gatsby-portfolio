@@ -1,9 +1,9 @@
-import React, { useState } from "react"
+import React from "react"
 import data from "../yourdata"
 import SkillCard from "./SkillCard"
 
 const Skills = () => {
-  const [hover, setHover] = useState(false)
+  
 
   return (
     <div className="section">
@@ -13,8 +13,6 @@ const Skills = () => {
           <div className="skills-grid">
             {data.skills.map((skill, index) => (
               <SkillCard
-                hover={hover}
-                setHover={setHover}
                 skill={skill}
                 key={index}
               />
