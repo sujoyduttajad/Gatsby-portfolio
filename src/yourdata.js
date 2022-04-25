@@ -10,6 +10,8 @@ import node from "./images/Node.svg"
 import next from "./images/NextJS.svg"
 import gatsby from "./images/Gatsby.svg"
 import codeIcon from "./images/code.svg"
+import sanity from './images/logos_sanity.svg'
+import d3 from './images/logos_d3.svg'
 
 // projects Icon
 import reduxGame from './images/reduxCardGame.png'
@@ -135,63 +137,92 @@ export default {
 
   skills: [
     {
+      id: 1,
+      header: "HTML",
       img: htmlIcon,
       para:
         "I have more than 4 years of experience in creating websites and apps with HTML, I learned the concepts early but as I develop HTML5 came and continued to explore the standard markup language for Web pages.",
     },
     {
+      id: 2,
+      header: "CSS",
       img: cssIcon,
       para:
         "CSS is my favourite piece of the web to work styling is always my priority, from working with basic CSS and modules to SASS, Bootstrap, Material-UI, and Tailwind-CSS all need continued learning progression on this vast field.",
     },
     {
+      id: 3,
+      header: "JavaScript",
       img: jsIcon,
       para:
         "JavaScript language is the backbone of the web, that's constantly changing and improving its ECMA scripts. Built a lot of projects, games, and web pages with the amalgamation of JavaScript, HTML, and CSS.",
     },
     {
+      id: 4,
+      header: "React",
       img: reactIcon,
       para:
         "React is a frontend library based on JavaScript. For the past few years I had build multiple React projects from small games to medium-scale projects which includes a complete react ecosystem.",
     },
     {
-      img: designIcon,
-      para:
-        "From the UI/UX specialization from coursera that helped me to design interfaces ultimately resulting in seamless User experience. I have designed industry specific to small-scale design mockups and prototypes using Figma nad Sketch.",
-    },
-    {
-      img: redux,
-      para:
-        "When it comes to large applications Redux plays an essential role in managing state in react applications. Used Redux in multiple react apps along with an industrial customer oriented web app.",
-    },
-    {
-      img: sass,
-      para:
-        "SASS stands for Syntactically Awesome Style Sheets, which is used as a pre-processor for stylling sheets allowing the CSS to be more robust. Highly experienced with SASS in building both medium and large scale applications.",
-    },
-    {
-      img: node,
-      para:
-        "Node.js an open-source cross-platform runtime environment for executing JavaScript code other than the browser is the most powerful tool I have used to build numerous API's and full MERN stack applications.",
-    },
-    {
+      id: 5,
+      header: "Next.js",
       img: next,
       para:
         "Another powerful tool is the React based framework called Next.js, I am a big fan of the Next.js features as a product thus build various applications and even planned, designed & architected a full-scale enterprise web app.",
     },
     {
+      id: 6,
+      header: "Figma",
+      img: designIcon,
+      para:
+        "From the UI/UX specialization from coursera that helped me to design interfaces ultimately resulting in seamless User experience. I have designed industry specific to small-scale design mockups and prototypes using Figma nad Sketch.",
+    },
+    {
+      id: 7,
+      header: "Redux",
+      img: redux,
+      para:
+        "When it comes to large applications Redux plays an essential role in managing state in react applications. Used Redux in multiple react apps along with an industrial customer oriented web app.",
+    },
+    {
+      id: 8,
+      header: "Sass",
+      img: sass,
+      para:
+        "SASS stands for Syntactically Awesome Style Sheets, which is used as a pre-processor for stylling sheets allowing the CSS to be more robust. Highly experienced with SASS in building both medium and large scale applications.",
+    },
+    {
+      id: 9,
+      header: "Node.js",
+      img: node,
+      para:
+        "Node.js an open-source cross-platform runtime environment for executing JavaScript code other than the browser is the most powerful tool I have used to build numerous API's and full MERN stack applications.",
+    },
+    {
+      id: 10,
+      header: "Gatsby",
       img: gatsby,
       para:
         "As I explored the React ecosystem I stumbled upon a static site generator based on React called Gatsby JS. I'm still new to it and my learning process continues as I build more projects with Gatsby JS ",
     },
     {
-      img: codeIcon,
+      id: 11,
+      header: "CMS",
+      img: sanity,
       para:
-        "Problem solving for me became a necessity from skill as I develop apps it's a must because often developers try to figure out an enormous bug or issue which requires the involvement of Data Structures and Algorithms",
+        "Worked with a lot of CMS but Sanity CMS is my personnel favourite as it provides a structured approach to content authoring, providing a concise number of features to manage content",
+    },
+    {
+      id: 12,
+      header: "Data Viz",
+      img: d3,
+      para:
+        "D3.js is an open-source JavaScript library that I have used for building lot of charts and graphs which gave me a lot of knowledge on data-handling and data visualisation",
     },
   ],
 
-  //   End Skills Section --------------------------
+  // ----- End Skills Section --------------------------
 
   //   Work History Section --------------------------
 
