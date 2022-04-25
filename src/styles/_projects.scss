@@ -1,0 +1,32 @@
+.work-wrapper {
+  width: 80vw;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-size: 3rem;
+    line-height: 20px;
+  }
+  .grid {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+
+    @include media(">=phone", "<lgphone") {
+      grid-template-columns: 1fr;
+    }
+    @include media(">=lgphone", "<tablet") {
+      grid-template-columns: 1fr;
+    }
+    @include media(">=tablet", "<smdesktop") {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1em;
+    }
+    @include media(">smdesktop") {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 3em;
+    }
+  }
+}
