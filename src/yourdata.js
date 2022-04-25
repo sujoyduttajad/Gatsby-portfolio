@@ -9,7 +9,6 @@ import sass from "./images/Sass.svg"
 import node from "./images/Node.svg"
 import next from "./images/NextJS.svg"
 import gatsby from "./images/Gatsby.svg"
-import codeIcon from "./images/code.svg"
 import sanity from './images/logos_sanity.svg'
 import d3 from './images/logos_d3.svg'
 
