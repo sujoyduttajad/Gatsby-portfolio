@@ -10,7 +10,12 @@ const useStyles = makeStyles({
   button: {
     marginTop: "1em",
   },
-  closeButton: {},
+  closeButton: {
+    backgroundColor: "fff",
+    "&:hover": {
+      backgroundColor: "fff",
+    },
+  },
   dialogTitle: {
     display: "flex",
     justifyContent: "space-between",
@@ -56,14 +61,28 @@ const SkillCard = ({ skill }) => {
           className={classes.dialogTitle}
           id="customized-dialog-title"
           onClose={handleClose}
-        //   disableTypography 
+          disableTypography
+          style={{
+            background: `${skill.primaryColor}`,
+            color: `${skill.secondColor}`,
+          }}
         >
-          <span className="span-header">{skill.header}</span>
-          <Button className={classes.closeButton} onClick={handleClose}>
+          <h3 className="span-header">{skill.header}</h3>
+          <Button
+            variant="outlined"
+            className={classes.closeButton}
+            onClick={handleClose}
+          >
             Close
           </Button>
         </DialogTitle>
-        <DialogContent dividers>
+        <DialogContent
+          dividers
+          style={{
+            background: `${skill.primaryColor}`,
+            color: `${skill.secondColor}`,
+          }}
+        >
           <p>{skill.para}</p>
         </DialogContent>
       </Dialog>
