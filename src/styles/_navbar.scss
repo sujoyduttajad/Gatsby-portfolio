@@ -61,7 +61,8 @@
       color: #fff;
     }
   }
-  @include media(">=phone", "<lgphone") {
+  @include media(">=phone", "<tablet") {
+    margin-top: 5vh;
     .links-wrapper {
       display: none;
     }
@@ -69,7 +70,7 @@
       width: 100%;
     }
   }
-  @include media(">=tablet", "<desktop") {
+  @include media(">=tablet", "<4k") {
     .name {
       width: 20em;
     }
