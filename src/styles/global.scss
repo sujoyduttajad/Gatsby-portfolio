@@ -2,9 +2,7 @@
 @import "./include-media.scss";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
-// Atoms
-@import "./card.scss";
-@import "./hamburger.scss";
+
 
 // Components
 @import "./navbar.scss";
@@ -14,6 +12,10 @@
 @import "./skills.scss";
 @import "./workhistory.scss";
 @import "./footer.scss";
+
+// Atoms
+@import "./card.scss";
+@import "./hamburger.scss";
 
 * {
   font-family: 'Lexend Deca', sans-serif;
