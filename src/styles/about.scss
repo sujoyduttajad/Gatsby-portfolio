@@ -26,6 +26,9 @@
     width: 50%;
     @include media(">=phone", "<lgphone") {
       width: 100%;
+      h1 {
+        text-align: center;
+      }
     }
     @include media(">=tablet", "<smdesktop") {
       width: 50%;
@@ -73,6 +76,11 @@
         @include media(">=phone", "<tablet") {
           @include flex(row, center, center);
           width: 100%;
+          img {
+            width: 15em;
+            height: 15em;
+            margin-top: 5em;
+          }
         }
         @include media(">=tablet", "<smdesktop") {
           @include flex(row, flex-end, flex-start);
