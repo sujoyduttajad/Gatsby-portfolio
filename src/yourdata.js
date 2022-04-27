@@ -9,16 +9,16 @@ import sass from "./images/Sass.svg"
 import node from "./images/Node.svg"
 import next from "./images/NextJS.svg"
 import gatsby from "./images/Gatsby.svg"
-import sanity from './images/logos_sanity.svg'
-import d3 from './images/logos_d3.svg'
+import sanity from "./images/logos_sanity.svg"
+import d3 from "./images/logos_d3.svg"
 
 // projects Icon
-import reduxGame from './images/reduxCardGame.png'
-import chatApp from './images/chatApp.png'
-import projectMgm from './images/projectManager.png'
-import landingPage from './images/landingPage.png'
-import BeatsUp from './images/BeatsUp.png'
-import GatsbyPortfolio from './images/gatsbyPortfolio.png'
+import reduxGame from "./images/reduxCardGame.png"
+import chatApp from "./images/chatApp.png"
+import projectMgm from "./images/projectManager.png"
+import landingPage from "./images/landingPage.png"
+import BeatsUp from "./images/BeatsUp.png"
+import GatsbyPortfolio from "./images/gatsbyPortfolio.png"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -31,8 +31,13 @@ import Wipro from "./images/wipro.png"
 import metricstream from "./images/metricstream.png"
 import MakseGroup from "./images/MakseGroup.png"
 
-export default {
+import { formatDistanceToNow } from "date-fns"
 
+const yearsOfExperience = formatDistanceToNow(new Date(2018, 6, 2), {
+  addSuffix: false,
+})
+
+export default {
   //   Header Details ---------------------
   name: "Sujoy",
   headerTagline: [
@@ -45,7 +50,7 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "Highly effective at developing, designing and standardizing designs according to company brand and objectives. Ready to bring 3.5 years of related experience to a growth-oriented team.",
+    `Highly effective at developing, designing and standardizing designs according to company brand and objectives. Ready to bring ${yearsOfExperience} of related experience to a growth-oriented team.`,
 
   //Contact Email
   contactEmail: "sujoyduttajad@gmail.com",
@@ -58,9 +63,8 @@ export default {
       title: "React Landing page", //Project Title - Add Your Project Title Here
       para:
         "This gorgeous responsive website is a static landing page built with React, styled-components, react-router, and react hooks. All the components are reusable and can be used for any dynamic content. It's fully responsive for all the platforms and hosted in netlify.",
-      //Project Image 
-      imageSrc:
-        landingPage,
+      //Project Image
+      imageSrc: landingPage,
       //Project URL
       url: "https://github.com/sujoyduttajad/Landing-Page-React",
     },
@@ -68,9 +72,8 @@ export default {
       title: "BeatsUp Music App", //Project Title - Add Your Project Title Here
       para:
         "A Design to Development music app for chill lofi-beats genre from scratch, built with React and state managed by Redux. It fetches a list of mp3 files organized in a grid based layout and styled custom SASS & Material-UI components, animation by lotti-interactivity and navigation by react-router.",
-      //Project Image 
-      imageSrc:
-        BeatsUp,
+      //Project Image
+      imageSrc: BeatsUp,
       //Project URL
       url: "https://cryptic-obscure96-fb3bb1.netlify.app/",
     },
@@ -78,9 +81,8 @@ export default {
       title: "Join Chat App", //Project Title - Add Your Project Title Here
       para:
         "My goal was to build a real-time Chat app that allows users to create their own spaces called room to interact with a group of people and send emojis. This app is build using web sockets that Socket.io uses internally.",
-      //Project Image 
-      imageSrc:
-        chatApp,
+      //Project Image
+      imageSrc: chatApp,
       //Project URL
       url: "https://github.com/sujoyduttajad/Socket.io-Chat-Application",
     },
@@ -89,8 +91,7 @@ export default {
       para:
         "A memory game build with React-Redux core functionalities, this app tests the true skills of an ideatic memory",
       //Project Image
-      imageSrc:
-        reduxGame,
+      imageSrc: reduxGame,
       //Project URL
       url: "https://github.com/sujoyduttajad/Redux-Card-game",
     },
@@ -99,18 +100,16 @@ export default {
       para:
         "This app is a Project Management tool with authentication and cloud functionalities where users can create Projects, edit them, delete them, and keep a track of them all in one SPA. To build this I used React, Redux, React-Redux, Thunk, and Firebase. This app will have authentication(sign-up & sign-in) and features like Cloud security, Route Guarding, Cloud functions.",
       //Project Image
-      imageSrc:
-        projectMgm,
+      imageSrc: projectMgm,
       //Project URL
       url: "https://github.com/sujoyduttajad/Project-management-tool",
     },
     {
       title: "Gatsby Portfolio", //Project Title - Add Your Project Title Here
       para:
-        "A smooth scroll minimalistic dev portfolio built with Gatsby.js used Yarn to manage the packages  that includes react-helmet for managing SEO, for animation I used react-reveal and react-scroll, SASS for stylling, a bunch of Gatsby plugins.", 
+        "A smooth scroll minimalistic dev portfolio built with Gatsby.js used Yarn to manage the packages  that includes react-helmet for managing SEO, for animation I used react-reveal and react-scroll, SASS for stylling, a bunch of Gatsby plugins.",
       //Project Image
-      imageSrc:
-        GatsbyPortfolio,
+      imageSrc: GatsbyPortfolio,
       //Project URL
       url: "https://github.com/sujoyduttajad/Gatsby-portfolio",
     },
@@ -122,11 +121,10 @@ export default {
   aboutParaOne:
     "I'm a geeky programmer and an enthusiastic learner. A Goal-oriented Web Developer who brings a strong commitment to collaboration and solutions-oriented problem-solving in Frontend Development and UI/UX design. I am always looking forward to building something thought-provoking.",
   aboutParaTwo:
-    "Bringing a total of 3.5 years of experience in Frontend development that comprises an impresive tech-stack of Next.js, React, Redux, Node, SASS, MongoDB, JavaScript, HTML, CSS, Bootstrap, Styled-components, Tailwind-css",
+    `Bringing a total of ${yearsOfExperience} of experience in Frontend development that comprises an impresive tech-stack of Next.js, React, Redux, Node, SASS, MongoDB, JavaScript, HTML, CSS, Bootstrap, Styled-components, Tailwind-css`,
   aboutParaThree:
     "Love to do photographeraphy(Landscapes and Cityscapes) also enjoy playing guitar in my free time. As a fun fact I'm learning cooking these days.",
-  aboutImage:
-    profilePic,
+  aboutImage: profilePic,
 
   //   End About Section ---------------------
 
@@ -142,7 +140,7 @@ export default {
       primaryColor: "#cf4822",
       secondColor: "#ebebeb",
       para:
-        "I have more than 4 years of experience in creating websites and apps with HTML, I learned the concepts early but as I develop HTML5 came and continued to explore the standard markup language for Web pages.",
+        `I have ${yearsOfExperience} of experience in creating websites and apps with HTML, I learned the concepts early but as I develop HTML5 came and continued to explore the standard markup language for Web pages.`,
     },
     {
       id: 2,
@@ -184,7 +182,8 @@ export default {
       id: 6,
       header: "Figma",
       img: designIcon,
-      primaryColor: "linear-gradient(90deg, rgba(242,78,30,1) 20%, rgba(255,114,98,1) 35%, rgba(162,89,255,1) 62%, rgba(25,188,254,1) 81%, rgba(9,207,131,1) 100%)",
+      primaryColor:
+        "linear-gradient(90deg, rgba(242,78,30,1) 20%, rgba(255,114,98,1) 35%, rgba(162,89,255,1) 62%, rgba(25,188,254,1) 81%, rgba(9,207,131,1) 100%)",
       secondColor: "#fff",
       para:
         "From the UI/UX specialization from coursera that helped me to design interfaces ultimately resulting in seamless User experience. I have designed industry specific to small-scale design mockups and prototypes using Figma nad Sketch.",
@@ -238,7 +237,8 @@ export default {
       id: 12,
       header: "Data Viz",
       img: d3,
-      primaryColor: "linear-gradient(123.31deg, #B84E51 11.09%, #F68E48 101.19%)",
+      primaryColor:
+        "linear-gradient(123.31deg, #B84E51 11.09%, #F68E48 101.19%)",
       secondColor: "#f1f1f1",
       para:
         "D3.js is an open-source JavaScript library that I have used for building lot of charts and graphs which gave me a lot of knowledge on data-handling and data visualisation",
@@ -254,7 +254,7 @@ export default {
     {
       title: "Dec 2020 - Present",
       cardTitle: "Makse Services Pvt. Ltd.",
-      cardSubtitle:"Frontend Developer, (Location - Bangalore, Karnataka)",
+      cardSubtitle: "Frontend Developer, (Location - Bangalore, Karnataka)",
       cardDetailedText: [
         " Currently working as full-time Front End Developer and UI designer on an AI enabled Performance management application based on the Client requirements.",
         " Developed designs and applications to meet specific requirements, such as AI-enabled products with unique Drag-n-Drop layouts and enhanced Serverless solutions to handle user traffic.",
@@ -263,17 +263,17 @@ export default {
         " Achieved the individual contribution award or Pineapple award by completing100% target on delivering a fantastic result on a complex project that I have been working for the last one year with accuracy and efficiency.",
         "Managed full-cycle design tasks, handling phases from conception to completion while maintaining guidelines throughout.",
       ],
-      media: {  
+      media: {
         type: "IMAGE",
         source: {
-          url: MakseGroup
-        }
-      }
+          url: MakseGroup,
+        },
+      },
     },
     {
       title: "June 2019 - July 2020",
       cardTitle: "MetricStream",
-      cardSubtitle:"Frontend Developer, (Location - Bangalore, Karnataka)",
+      cardSubtitle: "Frontend Developer, (Location - Bangalore, Karnataka)",
       cardDetailedText: [
         "Collaborated with stakeholders during development processes to confirm creative proposals and design best practices.",
         "Adhered to internal risk control and liability mitigation guidelines.",
@@ -282,40 +282,39 @@ export default {
         "Consulted with customers to gather requirements and discuss design choices.",
         "Worked in Agile-driven environment comprising of Atlassian products like Confluence and Jira and DevOps tools like Docker and Jenkins to effectively maintain project timelines and utilize available resources.",
       ],
-      media: {  
-          type: "IMAGE",
-          source: {
-            url: metricstream
-          }
-            }
+      media: {
+        type: "IMAGE",
+        source: {
+          url: metricstream,
+        },
+      },
     },
     {
       title: "July 2018 - May 2019",
       cardTitle: "Wipro Technologies",
-      cardSubtitle:"Project Engineer, (Location - Bangalore, Karnataka) ",
+      cardSubtitle: "Project Engineer, (Location - Bangalore, Karnataka) ",
       cardDetailedText: [
         "Worked on Enterprise Content Management (ECM) and delivered dynamic content 16% faster. Built HTML templates using Pug(JADE) for client-based application.",
         "Contributed to Document generation of insurance clients with Papyrus tool and construction of input responses in SOMS by increasing customer satisfaction. Tech stack consists of JavaScript, SOAP UI, HTML, CSS, Bootstrap, JADE(PUG), Node, and Express.",
         "Prepared variety of different written communications, reports and documents to ensure smooth operations.",
       ],
-      media: {  
-          type: "IMAGE",
-          source: {
-            url: Wipro
-          }
-            }
-    },  
-],
+      media: {
+        type: "IMAGE",
+        source: {
+          url: Wipro,
+        },
+      },
+    },
+  ],
   //    End Work History Section -----------------
 
   //   Contact Section --------------
 
   contactSubHeading: "Let's create your next experience together",
   social: [
-    
-    { 
-      img: githubIcon, 
-      url: "https://github.com/sujoyduttajad" 
+    {
+      img: githubIcon,
+      url: "https://github.com/sujoyduttajad",
     },
     {
       img: linkedin,
@@ -329,5 +328,3 @@ export default {
 
   // End Contact Section ---------------
 }
-
-
