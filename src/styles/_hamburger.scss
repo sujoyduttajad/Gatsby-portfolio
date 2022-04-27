@@ -6,7 +6,7 @@
 }
 
 .menuToggle {
-  display: block;
+  @include flex(column, space-between, flex-start);
   position: relative;
   top: 3px;
   left: 5px;
@@ -14,6 +14,10 @@
   width: 10vw;
   -webkit-user-select: none;
   user-select: none;
+  @include media(">=phone", "<tablet") {
+    left: 0px;
+    padding-right: 1.5em;
+  }
 
   input {
     display: block;
@@ -26,6 +30,8 @@
     opacity: 0;
     z-index: 20000;
     -webkit-touch-callout: none;
+    padding-right: 1em;
+    
     &:checked {
 
       ~ {
@@ -78,7 +84,6 @@
   @include flex(column, flex-start, flex-start);
   position: absolute;
   overflow: hidden;
-  scroll-behavior: unset;
   width: 100vw;
   max-height: 100vh;
   margin: -100px 0 0 -50px;
@@ -88,7 +93,7 @@
   background: #ededed;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
-  transform: translate(70%, 0);
+  transform: translate(72%, 0);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   button {
     padding: 10px;
@@ -106,7 +111,7 @@
     p {
       text-align: left;
       margin: 0;
-      padding: 0.3em 0.8em;
+      padding: 0.3% 2%;
     }
     &:hover {
       opacity: 1;
@@ -119,8 +124,10 @@
 }
 
 .ham-footer {
-  margin-top: 10em;
-  padding: 2em 1em;
+  position: absolute;
+  bottom: 5em;
+  left: 1em;
+  padding: 1em 1em;
   font-size: 1.5em;
   icon {
     color: red;
