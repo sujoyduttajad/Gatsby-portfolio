@@ -26,14 +26,22 @@ const Navbar = () => {
           </div>
           {/* ----- Navbar ----- */}
 
-          {( width < 767 ) ? (
+          {width > 300 && width < 767 ? (
             <Hamburger />
           ) : (
             <div className="links-wrapper">
-              <button onClick={() => scrollTo("#work")}>Projects</button>
-              <button onClick={() => scrollTo("#employement")}>Work</button>
-              <button onClick={() => scrollTo("#about")}>About</button>
-              <button onClick={() => scrollTo("#contact")}>Contact</button>
+              <button onClick={() => scrollTo("#work")}>
+                <h4>Projects</h4>
+              </button>
+              <button onClick={() => scrollTo("#employement")}>
+                <h4>Work</h4>
+              </button>
+              <button onClick={() => scrollTo("#about")}>
+                <h4>About</h4>
+              </button>
+              <button onClick={() => scrollTo("#contact")}>
+                <h4>Contact</h4>
+              </button>
             </div>
           )}
         </div>
