@@ -47,6 +47,9 @@
       outline: none;
       border: 0px;
       cursor: pointer;
+      h4 {
+        margin: 0;
+      }
       &:hover {
         opacity: 1;
         font-weight: 400;
