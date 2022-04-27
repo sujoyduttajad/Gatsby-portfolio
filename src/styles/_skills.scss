@@ -24,10 +24,10 @@
     margin-top: 50px;
     grid-gap: 20px;
     @include media(">=phone", "<lgphone") {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
     }
     @include media(">=lgphone", "<tablet") {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
     }
     @include media(">=tablet", "<desktop") {
       grid-template-columns: 1fr 1fr;
@@ -52,6 +52,7 @@
       }
       img {
         height: 3rem;
+        width: 100%;
       }
       p {
         font-size: 14px;
