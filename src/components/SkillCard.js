@@ -35,7 +35,6 @@ const DialogContent = withStyles(theme => ({
 }))(MuiDialogContent)
 
 const SkillCard = ({ skill }) => {
-  // const [hover, setHover] = useState(false)
   const [open, setOpen] = useState(false)
 
   const handleClickOpen = () => {
