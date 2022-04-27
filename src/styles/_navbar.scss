@@ -8,6 +8,7 @@
 .navbar-wrapper {
   width: 85vw;
   padding-top: 5vh;
+  padding-bottom: 1em;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -71,11 +72,16 @@
     }
   }
   @include media(">=phone", "<tablet") {
+    
+    width: 100vw;
+    padding-left: 5em;
+    padding-right: 5em;
     padding-top: 3vh;
     .links-wrapper {
       display: none;
     }
     .name {
+      padding-left: 2em;
       p {
         display: none;
       }
