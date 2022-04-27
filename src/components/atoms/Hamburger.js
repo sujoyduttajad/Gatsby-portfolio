@@ -3,7 +3,7 @@ import scrollTo from "gatsby-plugin-smoothscroll"
 
 const Hamburger = () => {
   return (
-    <div className="nav-mobile">
+    <section className="nav-mobile">
       <nav role="navigation">
         <div className="menuToggle">
           <input type="checkbox" />
@@ -14,21 +14,21 @@ const Hamburger = () => {
 
           <div className="nav-wrapper">
             <button onClick={() => scrollTo("#work")}>
-              <h4>Projects</h4>
+              <p>Projects</p>
             </button>
             <button onClick={() => scrollTo("#employement")}>
-              <h4>Work</h4>
+              <p>Work</p>
             </button>
             <button onClick={() => scrollTo("#about")}>
-              <h4>About</h4>
+              <p>About</p>
             </button>
             <button onClick={() => scrollTo("#contact")}>
-              <h4>Contact</h4>
+              <p>Contact</p>
             </button>
           </div>
         </div>
       </nav>
-    </div>
+    </section>
   )
 }
 
