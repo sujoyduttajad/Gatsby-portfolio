@@ -26,6 +26,7 @@
     z-index: 20000;
     -webkit-touch-callout: none;
     &:checked {
+
       ~ {
         span {
           opacity: 1;
@@ -74,22 +75,24 @@
 .nav-wrapper {
   @include flex(column, flex-start, center);
   position: absolute;
+  overflow: hidden;
   width: 100vw;
-  height: 100vh;
+  max-height: 100vh;
   margin: -100px 0 0 -50px;
-  padding: 50px;
+  padding: 50px 0;
+  z-index: 20000;
   padding-top: 125px;
   background: #ededed;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
-  transform: translate(100%, 0);
+  transform: translate(70%, 0);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   button {
     padding: 10px;
     font-family: inherit;
     opacity: 1;
     transition: all 0.2s ease-in-out;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 400;
     outline: none;
     border: 0px;
@@ -105,8 +108,10 @@
   }
  
 }
-// .nav-mobile {
-//     // position: absolute;
-//     width: 100vw;
-//     height: 100vw;
-// }
+.nav-mobile {
+    position: absolute;
+    top: 3em;
+    left: 20em;
+    // width: 100vw;
+    // height: 100vw;
+}
