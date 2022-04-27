@@ -6,15 +6,16 @@
 }
 
 .navbar-wrapper {
-  width: 80vw;
-  margin-top: 10vh;
+  width: 85vw;
+  padding-top: 5vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: sticky;
-  top: 0;
+  position: fixed;
+  top: 0em;
   z-index: 900;
-  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+  background-color: #fff;
+  // box-shadow: 0 1px 6px 0 #333;
 
   .name {
     @include flex(row, flex-start, center);
@@ -70,7 +71,7 @@
     }
   }
   @include media(">=phone", "<tablet") {
-    margin-top: 5vh;
+    padding-top: 3vh;
     .links-wrapper {
       display: none;
     }
@@ -82,7 +83,7 @@
     }
   }
   @include media(">=tablet", "<desktop") {
-    margin-top: 5vh;
+    padding-top: 5vh;
     .name {
       p {
         display: none;
