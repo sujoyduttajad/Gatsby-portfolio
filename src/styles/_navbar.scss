@@ -42,17 +42,17 @@
       opacity: 0.6;
       transition: all 0.2s ease-in-out;
       font-size: 1.1rem;
-      font-weight: 300;
+      font-weight: 500;
       background-color: transparent;
       outline: none;
       border: 0px;
       cursor: pointer;
-      h4 {
+      p {
         margin: 0;
       }
       &:hover {
         opacity: 1;
-        font-weight: 400;
+        font-weight: 500;
         background-color: #181818;
         color: #fff;
         box-shadow: 2px 2px 10px rgb(71, 71, 71);
@@ -71,10 +71,21 @@
       display: none;
     }
     .name {
+      p {
+        display: none;
+      }
       width: 100%;
     }
   }
-  @include media(">=tablet", "<4k") {
+  @include media(">=tablet", "<desktop") {
+    margin-top: 5vh;
+    .name {
+      p {
+        display: none;
+      }
+    }
+  }
+  @include media(">=desktop", "<4k") {
     .name {
       width: 20em;
     }
