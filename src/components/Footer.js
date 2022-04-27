@@ -1,6 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
+import { format } from "date-fns"
 
 const Footer = () => {
   return (
@@ -30,6 +31,7 @@ const Footer = () => {
             Build With <icon>❤</icon> by{" "}
             <a href="https://github.com/sujoyduttajad">Sujoy Dutta</a>
           </span>
+          <span>Copyright @{format(new Date(), 'yyyy')}</span>
         </div>
       </div>
     </div>
