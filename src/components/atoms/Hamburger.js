@@ -2,9 +2,6 @@ import React from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
 
 const Hamburger = () => {
-
-
- 
   return (
     <div className="nav-mobile">
       <nav role="navigation">
@@ -16,10 +13,18 @@ const Hamburger = () => {
           <span></span>
 
           <div className="nav-wrapper">
-            <button onClick={() => scrollTo("#work")}>Projects</button>
-            <button onClick={() => scrollTo("#employement")}>Work</button>
-            <button onClick={() => scrollTo("#about")}>About</button>
-            <button onClick={() => scrollTo("#contact")}>Contact</button>
+            <button onClick={() => scrollTo("#work")}>
+              <h4>Projects</h4>
+            </button>
+            <button onClick={() => scrollTo("#employement")}>
+              <h4>Work</h4>
+            </button>
+            <button onClick={() => scrollTo("#about")}>
+              <h4>About</h4>
+            </button>
+            <button onClick={() => scrollTo("#contact")}>
+              <h4>Contact</h4>
+            </button>
           </div>
         </div>
       </nav>
