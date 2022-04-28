@@ -24,7 +24,7 @@ const Navbar = () => {
               <img src={logo} alt="Gatsby" />
             </span>
           </div>
-          {/* ----- Navbar ----- */}
+          {/* ----- Nav Pages ----- */}
 
           {width > 300 && width < 767 ? (
             <Hamburger />
