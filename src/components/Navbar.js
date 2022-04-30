@@ -33,11 +33,11 @@ const Navbar = () => {
               <button onClick={() => scrollTo("#work")}>
                 <p>Projects</p>
               </button>
-              <button onClick={() => scrollTo("#employement")}>
-                <p>Work</p>
-              </button>
               <button onClick={() => scrollTo("#about")}>
                 <p>About</p>
+              </button>
+              <button onClick={() => scrollTo("#employement")}>
+                <p>Work</p>
               </button>
               <button onClick={() => scrollTo("#contact")}>
                 <p>Contact</p>
