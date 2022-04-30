@@ -16,7 +16,6 @@
   top: 0em;
   z-index: 900;
   background-color: #fff;
-  // box-shadow: 0 1px 6px 0 #333;
 
   .name {
     @include flex(row, flex-start, center);
