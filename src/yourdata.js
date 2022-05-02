@@ -186,7 +186,7 @@ export default {
         "linear-gradient(90deg, rgba(242,78,30,1) 20%, rgba(255,114,98,1) 35%, rgba(162,89,255,1) 62%, rgba(25,188,254,1) 81%, rgba(9,207,131,1) 100%)",
       secondColor: "#fff",
       para:
-        "From the UI/UX specialization from coursera that helped me to design interfaces ultimately resulting in seamless User experience. I have designed industry specific to small-scale design mockups and prototypes using Figma nad Sketch.",
+        "I always has the urge to make things stunning whether it's a website or a photograph. Thus started to learn UI/UX design principles and ultimately designed interfaces resulting in seamless User experience. I have experience in industry specific large-scale to landing pages, mockups and prototypes using Figma and Sketch.",
     },
     {
       id: 7,
@@ -195,7 +195,7 @@ export default {
       primaryColor: "#764abc",
       secondColor: "#fff",
       para:
-        "When it comes to large applications Redux plays an essential role in managing state in react applications. Used Redux in multiple react apps along with an industrial customer oriented web app.",
+        "When it comes to scalability, I often needed a tool to manage states and get rid off prop-drilling. Redux and Redux-Thunk have helped me a lot with building complex applications. Used Redux in multiple react apps along with an industry-specific customer oriented web app.",
     },
     {
       id: 8,
