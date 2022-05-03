@@ -1,17 +1,28 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
-import { Chrono } from "react-chrono"
-import {
-  Timeline,
-  TimelineItem,
-  TimelineSeparator,
-  TimelineConnector,
-  TimelineContent,
-  TimelineDot,
-} from "@material-ui/lab"
+// import { Chrono } from "react-chrono"
+import { makeStyles } from "@material-ui/core/styles"
+import Timeline from '@material-ui/lab/Timeline';
+import TimelineItem from '@material-ui/lab/TimelineItem';
+import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
+import TimelineConnector from '@material-ui/lab/TimelineConnector';
+import TimelineContent from '@material-ui/lab/TimelineContent';
+import TimelineDot from '@material-ui/lab/TimelineDot';
+import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
+
+const useStyles = makeStyles(theme => ({
+  paper: {
+    padding: "6px 16px",
+  },
+  secondaryTail: {
+    backgroundColor: theme.palette.secondary.main,
+  },
+}))
 
 const WorkHistory = () => {
+  const classes = useStyles()
   return (
     <section className="section" id="employement">
       <div className="container">
@@ -32,28 +43,30 @@ const WorkHistory = () => {
                 }}
                 mode="VERTICAL_ALTERNATING" 
               /> */}
-               <Timeline>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot />
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>Eat</TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot />
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>Code</TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot />
-        </TimelineSeparator>
-        <TimelineContent>Sleep</TimelineContent>
-      </TimelineItem>
-    </Timeline>
+            <Timeline align="alternate">
+              {data.workHistory.map(work => (
+                <TimelineItem>
+                  <TimelineSeparator>
+                    <TimelineDot />
+                    <TimelineConnector />
+                  </TimelineSeparator>
+                  <TimelineContent>
+                    <Paper elevation={3} className={classes.paper}>
+                      <Typography variant="h6" component="h2">
+                        {work.cardTitle}
+                      </Typography>
+                      <ul>
+                        {work.cardDetailedText.map(detail => (
+                          <li>
+                            <Typography>{detail}</Typography>
+                          </li>
+                        ))}
+                      </ul>
+                    </Paper>
+                  </TimelineContent>
+                </TimelineItem>
+              ))}
+            </Timeline>
           </div>
         </div>
       </div>
