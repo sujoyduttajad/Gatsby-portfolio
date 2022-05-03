@@ -1,12 +1,17 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
-import { Chrono } from "react-chrono";
-import {Timeline, TimelineItem, TimelineSeparator,   } from '@material-ui/lab';
+import { Chrono } from "react-chrono"
+import {
+  Timeline,
+  TimelineItem,
+  TimelineSeparator,
+  TimelineConnector,
+  TimelineContent,
+  TimelineDot,
+} from "@material-ui/lab"
 
 const WorkHistory = () => {
-
-
   return (
     <section className="section" id="employement">
       <div className="container">
@@ -14,8 +19,8 @@ const WorkHistory = () => {
           <Fade bottom cascade>
             <h1>{data.promotionHeading}</h1>
           </Fade>
-            <div style={{ width: "80%", height: "50%" }}>
-              <Chrono 
+          <div style={{ width: "80%", height: "50%" }}>
+            {/* <Chrono 
                 items={data.workHistory}
                 hideControls={true} 
                 scrollable={false}
@@ -26,13 +31,33 @@ const WorkHistory = () => {
                   titleColor: "#fff"
                 }}
                 mode="VERTICAL_ALTERNATING" 
-              />
-            </div>
+              /> */}
+               <Timeline>
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineDot />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>Eat</TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineDot />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>Code</TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineDot />
+        </TimelineSeparator>
+        <TimelineContent>Sleep</TimelineContent>
+      </TimelineItem>
+    </Timeline>
+          </div>
         </div>
       </div>
     </section>
-
-    
   )
 }
 
