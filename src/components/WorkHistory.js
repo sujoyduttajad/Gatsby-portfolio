@@ -15,10 +15,14 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles(theme => ({
   paper: {
     padding: "6px 16px",
+    
   },
   secondaryTail: {
     backgroundColor: theme.palette.secondary.main,
   },
+  typography: {
+    fontFamily: "'Lexend Deca', sans-serif",
+  }
 }))
 
 const WorkHistory = () => {
@@ -52,13 +56,20 @@ const WorkHistory = () => {
                   </TimelineSeparator>
                   <TimelineContent>
                     <Paper elevation={3} className={classes.paper}>
-                      <Typography variant="h6" component="h2">
+                      <h2 className="work-company-name">
                         {work.cardTitle}
-                      </Typography>
-                      <ul>
+                      </h2>
+                      <ul className="work-company-list">
                         {work.cardDetailedText.map(detail => (
                           <li>
-                            <Typography>{detail}</Typography>
+                            <Typography
+                                align="left"
+                                color="textSecondary"
+                                variant="body2"
+                                className={classes.typography}
+                            >
+                              {detail}
+                            </Typography>
                           </li>
                         ))}
                       </ul>
