@@ -10,8 +10,9 @@ import TimelineConnector from "@material-ui/lab/TimelineConnector"
 import TimelineContent from "@material-ui/lab/TimelineContent"
 import TimelineDot from "@material-ui/lab/TimelineDot"
 import TimelineOppositeContent from "@material-ui/lab/TimelineOppositeContent"
-import Paper from "@material-ui/core/Paper"
-import Typography from "@material-ui/core/Typography"
+import { Paper, Typography, Card, CardMedia, Collapse } from "@material-ui/core"
+import ExpandLess from '@material-ui/icons/ExpandLess';
+import ExpandMore from '@material-ui/icons/ExpandMore';
 
 const useStyles = makeStyles(theme => ({
   paper: {
@@ -25,12 +26,23 @@ const useStyles = makeStyles(theme => ({
   },
   workPeriod: {
     fontFamily: "'Lexend Deca', sans-serif",
-    color: '#212121'
-  }
+    color: "#212121",
+  },
+  cover: {
+    width: '70%',
+    margin: 'auto'
+  },
 }))
 
 const WorkHistory = () => {
-  const classes = useStyles()
+  onst [open, setOpen] = React.useState(true);
+
+  const handleClick = () => {
+    setOpen(!open);
+  };
+
+  const classes = useStyles();
+  
   return (
     <section className="section" id="employement">
       <div className="container">
@@ -69,14 +81,24 @@ const WorkHistory = () => {
                     >
                       {work.cardSubtitle}
                     </Typography>
+                    <Card raised>
+                      <CardMedia
+                        className={classes.cover}
+                        component="img"
+                        image={work.url}
+                        title="Live from space album cover"
+                      />
+                    </Card>
                   </TimelineOppositeContent>
                   <TimelineSeparator>
                     <TimelineDot />
                     <TimelineConnector />
                   </TimelineSeparator>
                   <TimelineContent>
-                    <Paper elevation={3} className={classes.paper}>
+                    <Paper button onClick={handleClick} elevation={3} className={classes.paper}>
                       <h2 className="work-company-name">{work.cardTitle}</h2>
+                      {open ? <ExpandLess /> : <ExpandMore />}
+                      <Collapse in={open} timeout="auto" unmountOnExit>
                       <ul className="work-company-list">
                         {work.cardDetailedText.map(detail => (
                           <li>
@@ -91,6 +113,7 @@ const WorkHistory = () => {
                           </li>
                         ))}
                       </ul>
+                      </Collapse>
                     </Paper>
                   </TimelineContent>
                 </TimelineItem>
