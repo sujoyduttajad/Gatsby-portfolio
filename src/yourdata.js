@@ -204,7 +204,7 @@ export default {
       primaryColor: "#cd6799",
       secondColor: "#fff",
       para:
-        "SASS stands for Syntactically Awesome Style Sheets, which is used as a pre-processor for stylling sheets allowing the CSS to be more robust. Highly experienced with SASS in building both medium and large scale applications.",
+        "SASS or Syntactically Awesome Style Sheets is a preprocessor for CSS, which offers developers to create programmatically stylesheets. I have a fair amount of experience with using SASS features like mixins, modules, partials and extends in building applications.",
     },
     {
       id: 9,
@@ -213,7 +213,7 @@ export default {
       primaryColor: "#83cd29",
       secondColor: "#333",
       para:
-        "Node.js an open-source cross-platform runtime environment for executing JavaScript code other than the browser is the most powerful tool I have used to build numerous API's and full MERN stack applications.",
+        "Node.js, an open-source cross-platform runtime environment for executing JavaScript code in the browser. I have used to build numerous API's and full MERN stack applications with Express.js and addressed various backend operations.",
     },
     {
       id: 10,
@@ -264,12 +264,6 @@ export default {
         "Managed full-cycle design tasks, handling phases from conception to completion while maintaining guidelines throughout.",
       ],
       url: MakseGroup,
-      // media: {
-      //   type: "IMAGE",
-      //   source: {
-          
-      //   },
-      // },
     },
     {
       title: "June 2019 - July 2020",
@@ -284,12 +278,6 @@ export default {
         "Worked in Agile-driven environment comprising of Atlassian products like Confluence and Jira and DevOps tools like Docker and Jenkins to effectively maintain project timelines and utilize available resources.",
       ],
       url: metricstream,
-      // media: {
-      //   type: "IMAGE",
-      //   source: {
-          
-      //   },
-      // },
     },
     {
       title: "July 2018 - May 2019",
@@ -301,12 +289,6 @@ export default {
         "Prepared variety of different written communications, reports and documents to ensure smooth operations.",
       ],
       url: Wipro,
-      // media: {
-      //   type: "IMAGE",
-      //   source: {
-          
-      //   },
-      // },
     },
   ],
   //    End Work History Section -----------------
