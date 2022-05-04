@@ -263,12 +263,13 @@ export default {
         " Achieved the individual contribution award or Pineapple award by completing100% target on delivering a fantastic result on a complex project that I have been working for the last one year with accuracy and efficiency.",
         "Managed full-cycle design tasks, handling phases from conception to completion while maintaining guidelines throughout.",
       ],
-      media: {
-        type: "IMAGE",
-        source: {
-          url: MakseGroup,
-        },
-      },
+      url: MakseGroup,
+      // media: {
+      //   type: "IMAGE",
+      //   source: {
+          
+      //   },
+      // },
     },
     {
       title: "June 2019 - July 2020",
@@ -282,12 +283,13 @@ export default {
         "Consulted with customers to gather requirements and discuss design choices.",
         "Worked in Agile-driven environment comprising of Atlassian products like Confluence and Jira and DevOps tools like Docker and Jenkins to effectively maintain project timelines and utilize available resources.",
       ],
-      media: {
-        type: "IMAGE",
-        source: {
-          url: metricstream,
-        },
-      },
+      url: metricstream,
+      // media: {
+      //   type: "IMAGE",
+      //   source: {
+          
+      //   },
+      // },
     },
     {
       title: "July 2018 - May 2019",
@@ -298,12 +300,13 @@ export default {
         "Contributed to Document generation of insurance clients with Papyrus tool and construction of input responses in SOMS by increasing customer satisfaction. Tech stack consists of JavaScript, SOAP UI, HTML, CSS, Bootstrap, JADE(PUG), Node, and Express.",
         "Prepared variety of different written communications, reports and documents to ensure smooth operations.",
       ],
-      media: {
-        type: "IMAGE",
-        source: {
-          url: Wipro,
-        },
-      },
+      url: Wipro,
+      // media: {
+      //   type: "IMAGE",
+      //   source: {
+          
+      //   },
+      // },
     },
   ],
   //    End Work History Section -----------------
