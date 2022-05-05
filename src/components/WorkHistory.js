@@ -1,7 +1,6 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
-// import { Chrono } from "react-chrono"
 import { makeStyles } from "@material-ui/core/styles"
 import Timeline from "@material-ui/lab/Timeline"
 import TimelineItem from "@material-ui/lab/TimelineItem"
@@ -35,7 +34,7 @@ const useStyles = makeStyles(theme => ({
 }))
 
 const WorkHistory = () => {
-  onst [open, setOpen] = React.useState(true);
+  const [open, setOpen] = React.useState(true);
 
   const handleClick = () => {
     setOpen(!open);
@@ -51,18 +50,6 @@ const WorkHistory = () => {
             <h1>{data.promotionHeading}</h1>
           </Fade>
           <div style={{ width: "80%", height: "50%" }}>
-            {/* <Chrono 
-                items={data.workHistory}
-                hideControls={true} 
-                scrollable={false}
-                theme={{ 
-                  primary: "#2F9DF1",
-                  secondary: "#333",
-                  cardForeColor: "#2F9DF1",
-                  titleColor: "#fff"
-                }}
-                mode="VERTICAL_ALTERNATING" 
-              /> */}
             <Timeline align="alternate">
               {data.workHistory.map(work => (
                 <TimelineItem>
