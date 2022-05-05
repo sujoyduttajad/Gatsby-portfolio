@@ -12,7 +12,11 @@ import ExpandMore from '@material-ui/icons/ExpandMore';
 
 const useStyles = makeStyles(theme => ({
     paper: {
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
       padding: "6px 16px",
+      cursor: 'pointer'
     },
     secondaryTail: {
       backgroundColor: theme.palette.secondary.main,
@@ -26,7 +30,8 @@ const useStyles = makeStyles(theme => ({
     },
     cover: {
       width: '70%',
-      margin: 'auto'
+      margin: 'auto',
+      transition: 'all 0.5s ease-in-out'
     },
   }))
 
@@ -60,7 +65,11 @@ const TimelineCard = ({ work }) => {
             className={classes.cover}
             component="img"
             image={work.url}
-            title="Live from space album cover"
+            title={work.cardTitle}
+            style={{
+                display: `${!open ? 'none' : 'flex'}`,
+                transition: 'all 0.5s ease-in-out'
+            }}
           />
         </Card>
       </TimelineOppositeContent>
