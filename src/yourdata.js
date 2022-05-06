@@ -140,7 +140,7 @@ export default {
       primaryColor: "#cf4822",
       secondColor: "#ebebeb",
       para:
-        `I have ${yearsOfExperience} of experience in creating websites and apps with HTML, I learned the concepts early but as I develop HTML5 came and continued to explore the standard markup language for Web pages.`,
+        `I have ${yearsOfExperience} of experience in creating websites and apps with HTML, I learned the concepts early but as I develop HTML5 came and continued to explore the standard markup language for the Web.`,
     },
     {
       id: 2,
@@ -149,7 +149,7 @@ export default {
       primaryColor: "#1572b6",
       secondColor: "#ebebeb",
       para:
-        "CSS is my favourite piece of the web to work styling is always my priority, from working with basic CSS and modules to SASS, Bootstrap, Material-UI, and Tailwind-CSS all need continued learning progression on this vast field.",
+        "CSS is my favourite part of the web, as proper knowledge of CSS can completely change a website's perspective. For me styling is always my priority, my experience include from working with basic CSS, modules, SASS, Bootstrap, Material-UI, and Tailwind-CSS.",
     },
     {
       id: 3,
@@ -158,7 +158,7 @@ export default {
       primaryColor: "#f5de19",
       secondColor: "#000000",
       para:
-        "JavaScript language is the backbone of the web, that's constantly changing and improving its ECMA scripts. Built a lot of projects, games, and web pages with the amalgamation of JavaScript, HTML, and CSS.",
+        `JavaScript language is the backbone of the web, that's constantly changing and improving its ECMA scripts. For ${yearsOfExperience} I have been learning and building a lot of projects, games, and web pages with the amalgamation of JavaScript, HTML, and CSS.`,
     },
     {
       id: 4,
@@ -167,7 +167,7 @@ export default {
       primaryColor: "#00d8ff",
       secondColor: "#fff",
       para:
-        "React is a frontend library based on JavaScript. For the past few years I had build multiple React projects from small games to medium-scale projects which includes a complete react ecosystem.",
+        `React is a frontend library based on JavaScript. I like about the way React allows users to focus on creativity and not too much on the base implementation. For the past ${yearsOfExperience} I had build multiple React projects from small games to medium-scale projects which includes a complete react ecosystem.`,
     },
     {
       id: 5,
@@ -176,7 +176,7 @@ export default {
       primaryColor: "#262626",
       secondColor: "#f1f1f1",
       para:
-        "Another powerful tool is the React based framework called Next.js, I am a big fan of the Next.js features as a product thus build various applications and even planned, designed & architected a full-scale enterprise web app.",
+        "Another powerful tool is the React based framework called Next.js, I am a big fan of the Next.js features as a product and what it enable devlopers to achieve. Build various applications and even planned, designed & architected a full-scale enterprise web app.",
     },
     {
       id: 6,
@@ -259,9 +259,9 @@ export default {
         " Currently working as full-time Front End Developer and UI designer on an AI enabled Performance management application based on the Client requirements.",
         " Developed designs and applications to meet specific requirements, such as AI-enabled products with unique Drag-n-Drop layouts and enhanced Serverless solutions to handle user traffic.",
         " Employed user-oriented visuals and features using front-end frameworks like Next.js and React.js to provide increased dynamic web-based performance.",
-        " Built user interfaces, sitemaps, wireframes, mockups, prototypes using Figma , data visualizations using D3.js , built Drag-n-Drop and resizable scheduler system using react-DnD , react-Rnd , redux , thunk, Context API, Express, Node, and designed overall user experience, resulting in a 36% increase in sales.",
-        " Achieved the individual contribution award or Pineapple award by completing100% target on delivering a fantastic result on a complex project that I have been working for the last one year with accuracy and efficiency.",
-        "Managed full-cycle design tasks, handling phases from conception to completion while maintaining guidelines throughout.",
+        " Built user interfaces, sitemaps, wireframes, mockups, prototypes using Figma , data visualizations using D3.js. Also worked and created a complete Drag-n-Drop and resizable scheduler system using Next.js, Material-UI, React-DnD, Redux, Redux-Thunk, Context API, Express, Node, and designed overall user experience, resulting in a 36% increase in sales.",
+        " Achieved the individual contribution award or Pineapple award by completing 100% target on delivering a fantastic result on a complex project that I have been working for over a year with accuracy and efficiency.",
+        " Managed full-cycle design tasks, handling phases from conception to completion while maintaining guidelines throughout.",
       ],
       url: MakseGroup,
     },
