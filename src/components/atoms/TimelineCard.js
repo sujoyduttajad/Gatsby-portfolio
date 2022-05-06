@@ -29,6 +29,7 @@ const useStyles = makeStyles(theme => ({
       color: "#212121",
     },
     cover: {
+      maxWidth: '20em',
       width: '70%',
       margin: 'auto',
       transition: 'all 0.5s ease-in-out'
