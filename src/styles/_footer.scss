@@ -1,4 +1,3 @@
-
 @mixin flex($direction, $justify, $align) {
   display: flex;
   flex-direction: $direction;
@@ -30,7 +29,7 @@
   }
   .email-link {
     font-size: 1.5rem;
-    color: black;
+    color: #181818;
     font-weight: 200;
   }
   .social-icons {
@@ -50,11 +49,16 @@
 
 .footer-wrapper {
   @include flex(row, space-evenly, center);
-
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 50px;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
   .footer-links {
     @include flex(column, center, center);
+    margin: 2em;
   }
   .footer-form-container {
-    @include flex(column, space-evenly, center);
+    @include flex(column, space-between, normal);
   }
 }
