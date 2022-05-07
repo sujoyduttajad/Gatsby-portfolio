@@ -2,8 +2,9 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 import { format } from "date-fns"
-import { withStyles } from "@material-ui/core/styles"
+import { withStyles, makeStyles } from "@material-ui/core/styles"
 import TextField from "@material-ui/core/TextField"
+import Button from "@material-ui/core/Button"
 
 const CustomInput = withStyles({
   root: {
@@ -15,10 +16,10 @@ const CustomInput = withStyles({
     "& label.Mui-focused": {
       color: "#181818",
     },
-    '& .MuiFormLabel-root': {
+    "& .MuiFormLabel-root": {
       fontFamily: "'Lexend Deca', sans-serif",
-      fontSize: '1em',
-      top: '-4px'
+      fontSize: "1em",
+      top: "-4px",
     },
     "& .MuiInputBase-input": {
       fontFamily: "'Lexend Deca', sans-serif",
@@ -33,6 +34,9 @@ const CustomInput = withStyles({
     "& .MuiInput-underline:after": {
       borderBottomColor: "#eee",
     },
+    "& .MuiOutlinedInput-multiline": {
+      padding: 0,
+    },
     "& .MuiOutlinedInput-root": {
       "& fieldset": {
         borderColor: "#181818",
@@ -42,10 +46,28 @@ const CustomInput = withStyles({
       },
     },
   },
-})(TextField)
+})(TextField);
+
+const useStyles = makeStyles(theme => ({
+
+  button: {
+    width: '80%',
+    padding: "1em",
+    backgroundColor: '#181818',
+    color: "#fff",
+    "&:hover": {
+      boxShadow: "2px 2px 10px rgb(71, 71, 71)",
+      backgroundColor: '#181818',
+    color: "#fff",
+    },
+    "& span": {
+      margin: 0,
+    },
+  },
+}));
 
 const Footer = () => {
-  // const classes = useStyles();
+  const classes = useStyles();
 
   return (
     <div className="section" id="contact">
@@ -79,7 +101,7 @@ const Footer = () => {
               <span>Copyright @{format(new Date(), "yyyy")}</span>
             </div>
             <div className="footer-form-container">
-              <form>
+              <form >
                 <CustomInput
                   id="filled-required"
                   label="Your Full Name"
@@ -95,8 +117,11 @@ const Footer = () => {
                   label="Your Message"
                   variant="outlined"
                   multiline
-                  rows={4}
+                  rows={7}
                 />
+                <Button className={classes.button} variant="contained" disableElevation>
+                  Send
+                </Button>
               </form>
             </div>
           </div>
