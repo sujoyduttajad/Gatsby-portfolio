@@ -2,10 +2,27 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 import { format } from "date-fns"
+import { makeStyles } from "@material-ui/core/styles"
+import TextField from '@material-ui/core/TextField';
+import FormControl from '@material-ui/core/FormControl';
+
+const useStyles = makeStyles(theme => ({
+  inputFields: {
+    margin: '1em',
+    fontFamily: "'Lexend Deca', sans-serif",
+    color: '#181818',
+  },
+  form: {
+    fontFamily: "'Lexend Deca', sans-serif",
+  }
+}));
 
 const Footer = () => {
+  const classes = useStyles();
+
   return (
     <div className="section" id="contact">
+      <div className="container">
       <div className="footer-container">
         <Fade bottom cascade>
           <h1>Contact</h1>
@@ -35,11 +52,29 @@ const Footer = () => {
             <span>Copyright @{format(new Date(), "yyyy")}</span>
           </div>
           <div className="footer-form-container">
-            <form>
-                
-            </form>
+            <FormControl className={classes.form}>
+              <TextField
+                className={classes.inputFields}
+                id="filled-required"
+                label="Your Full Name"
+                variant="outlined"
+              />
+              <TextField
+                className={classes.inputFields}
+                id="filled-required"
+                label="Your Email"
+                variant="outlined"
+              />
+              <TextField
+                className={classes.inputFields}
+                id="filled-required"
+                label="Your Message"
+                variant="outlined"w
+              />
+            </FormControl >
           </div>
         </div>
+      </div>
       </div>
     </div>
   )
