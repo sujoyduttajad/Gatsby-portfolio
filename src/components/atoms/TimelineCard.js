@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme => ({
       margin: 'auto',
       transition: 'all 0.5s ease-in-out'
     },
-  }))
+  }));
 
 const TimelineCard = ({ work }) => {
   const [open, setOpen] = React.useState(false)
@@ -43,7 +43,8 @@ const TimelineCard = ({ work }) => {
     setOpen(!open)
   }
 
-  const classes = useStyles()
+  const classes = useStyles();
+  
   return (
     <TimelineItem>
       <TimelineOppositeContent>
