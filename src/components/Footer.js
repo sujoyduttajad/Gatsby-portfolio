@@ -119,8 +119,13 @@ const Footer = () => {
                   multiline
                   rows={7}
                 />
-                <Button className={classes.button} variant="contained" disableElevation>
-                  Send
+                <Button
+                  type='submit' 
+                  className={classes.button} 
+                  variant="contained" 
+                  disableElevation
+                >
+                  Send Message
                 </Button>
               </form>
             </div>
