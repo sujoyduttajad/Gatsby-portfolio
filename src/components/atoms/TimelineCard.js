@@ -95,8 +95,8 @@ const TimelineCard = ({ work }) => {
             component='div'
           >
             <ul className="work-company-list">
-              {work.cardDetailedText.map(detail => (
-                <li>
+              {work.cardDetailedText.map((detail, index) => (
+                <li key={index} >
                   <Typography
                     align="left"
                     color="textSecondary"
