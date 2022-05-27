@@ -17,8 +17,8 @@ const WorkHistory = () => {
           </Fade>
           <div style={{ width: "80%", height: "50%" }}>
             <Timeline align="alternate">
-              {data.workHistory.map(work => (
-                <TimelineCard work={work} />
+              {data.workHistory.map((work, index) => (
+                <TimelineCard key={index} work={work} />
               ))}
             </Timeline>
           </div>
