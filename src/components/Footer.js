@@ -12,7 +12,7 @@ const CustomInput = withStyles({
     width: "80%",
     fontFamily: "'Lexend Deca', sans-serif",
 
-    color: "#181818",
+    color: "#b3b3b3",
     "& label.Mui-focused": {
       color: "#181818",
     },
@@ -39,7 +39,7 @@ const CustomInput = withStyles({
     },
     "& .MuiOutlinedInput-root": {
       "& fieldset": {
-        borderColor: "#181818",
+        borderColor: "#b3b3b3",
       },
       "&.Mui-focused fieldset": {
         borderColor: "#181818",
