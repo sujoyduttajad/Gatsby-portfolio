@@ -95,7 +95,7 @@ const Footer = () => {
                 ))}
               </div>
               <span>
-                Build With <icon>❤</icon> by{" "}
+                Build With <span aria-label="heart-emoji" role="image">❤️</span> by{" "}
                 <a href="https://github.com/sujoyduttajad">Sujoy Dutta</a>
               </span>
               <span>Copyright @{format(new Date(), "yyyy")}</span>
@@ -117,13 +117,12 @@ const Footer = () => {
                   label="Your Message"
                   variant="outlined"
                   multiline
-                  rows={7}
+                  minRows={7}
                 />
                 <Button
                   type='submit' 
                   className={classes.button} 
                   variant="contained" 
-                  disableElevation
                 >
                   Send Message
                 </Button>
