@@ -46,28 +46,27 @@ const CustomInput = withStyles({
       },
     },
   },
-})(TextField);
+})(TextField)
 
 const useStyles = makeStyles(theme => ({
-
   button: {
-    width: '80%',
+    width: "80%",
     padding: "1em",
-    backgroundColor: '#181818',
+    backgroundColor: "#181818",
     color: "#fff",
     "&:hover": {
       boxShadow: "2px 2px 10px rgb(71, 71, 71)",
-      backgroundColor: '#181818',
-    color: "#fff",
+      backgroundColor: "#181818",
+      color: "#fff",
     },
     "& span": {
       margin: 0,
     },
   },
-}));
+}))
 
 const Footer = () => {
-  const classes = useStyles();
+  const classes = useStyles()
 
   return (
     <div className="section" id="contact">
@@ -95,24 +94,30 @@ const Footer = () => {
                 ))}
               </div>
               <span>
-                Build With <span aria-label="heart-emoji" role="image">❤️</span> by{" "}
-                <a href="https://github.com/sujoyduttajad">Sujoy Dutta</a>
+                Build With{" "}
+                <span aria-label="heart-emoji" role="image">
+                  ❤️
+                </span>{" "}
+                by <a href="https://github.com/sujoyduttajad">Sujoy Dutta</a>
               </span>
               <span>Copyright @{format(new Date(), "yyyy")}</span>
             </div>
             <div className="footer-form-container">
-              <form >
+              <form>
                 <CustomInput
+                  name="name"
                   id="filled-required"
                   label="Your Full Name"
                   variant="outlined"
                 />
                 <CustomInput
+                  name="email"
                   id="filled-required"
                   label="Your Email"
                   variant="outlined"
                 />
                 <CustomInput
+                  name="message"
                   id="filled-required"
                   label="Your Message"
                   variant="outlined"
@@ -120,9 +125,9 @@ const Footer = () => {
                   minRows={7}
                 />
                 <Button
-                  type='submit' 
-                  className={classes.button} 
-                  variant="contained" 
+                  type="submit"
+                  className={classes.button}
+                  variant="contained"
                 >
                   Send Message
                 </Button>
