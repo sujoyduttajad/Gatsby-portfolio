@@ -1,5 +1,5 @@
-import React, { useRef } from 'react';
-import emailjs from 'emailjs-com'
+import React, { useRef } from "react"
+import emailjs from "emailjs-com"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 import { format } from "date-fns"
@@ -68,19 +68,26 @@ const useStyles = makeStyles(theme => ({
 
 const Footer = () => {
   const classes = useStyles();
-
   const form = useRef();
-  const sendEmail = (e) => {
+
+  const sendEmail = e => {
     e.preventDefault();
-
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-  };
-
+    emailjs
+      .sendForm(
+        process.env.SERVICE_ID,
+        process.env.TEMPLATE_ID,
+        form.current,
+        process.env.PUBLIC_KEY
+      )
+      .then(
+        result => {
+          console.log(result.text)
+        },
+        error => {
+          console.log(error.text)
+        }
+      )
+  }
 
   return (
     <div className="section" id="contact">
