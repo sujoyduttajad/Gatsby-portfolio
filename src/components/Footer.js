@@ -67,7 +67,20 @@ const useStyles = makeStyles(theme => ({
 }))
 
 const Footer = () => {
-  const classes = useStyles()
+  const classes = useStyles();
+
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
 
   return (
     <div className="section" id="contact">
@@ -104,7 +117,7 @@ const Footer = () => {
                 <span>Copyright @{format(new Date(), "yyyy")}</span>
               </div>
               <div className="footer-form-container">
-                <form>
+                <form ref={form} onSubmit={() => sendEmail()}>
                   <CustomInput
                     name="name"
                     id="filled-required"
