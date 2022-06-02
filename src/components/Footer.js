@@ -79,14 +79,7 @@ const Footer = () => {
         form.current,
         process.env.PUBLIC_KEY
       )
-      .then(
-        result => {
-          console.log(result.text)
-        },
-        error => {
-          console.log(error.text)
-        }
-      )
+      
   }
 
   return (
@@ -124,7 +117,7 @@ const Footer = () => {
                 <span>Copyright @{format(new Date(), "yyyy")}</span>
               </div>
               <div className="footer-form-container">
-                <form ref={form} onSubmit={() => sendEmail()}>
+                <form ref={form} onSubmit={sendEmail}>
                   <CustomInput
                     name="name"
                     id="filled-required"
