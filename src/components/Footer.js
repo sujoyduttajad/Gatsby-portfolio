@@ -74,11 +74,13 @@ const Footer = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        process.env.SERVICE_ID,
-        process.env.TEMPLATE_ID,
+        `${process.env.SERVICE_ID}`,
+        `${process.env.TEMPLATE_ID}`,
         form.current,
-        process.env.PUBLIC_KEY
-      )
+        `${process.env.PUBLIC_KEY}`
+      );
+
+    e.target.reset();
       
   }
 
