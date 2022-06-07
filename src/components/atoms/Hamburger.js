@@ -26,7 +26,7 @@ const Hamburger = () => {
           </button>
 
           <div className="ham-footer">
-            Build With <span aria-label="heart-emoji" role="image">❤️</span> by{" "}
+            Build With <span aria-label="heart-emoji" role="icon">❤️</span> by{" "}
             <a href="https://github.com/sujoyduttajad">Sujoy Dutta</a>
           </div>
         </div>
