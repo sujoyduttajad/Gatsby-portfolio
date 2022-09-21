@@ -8,4 +8,4 @@ A smooth scroll minimalistic dev portfolio built with Gatsby.js used Yarn to man
 <img src="./Gatsby-portfolio.png" alt="the screenshot of the app large screen"/>
 
 
-[Click here to see the live demo](https://sujoyduttaportfolio.gatsbyjs.io/)
+[Link to the portfolio](https://sujoyduttaportfolio.gatsbyjs.io/)
