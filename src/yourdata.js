@@ -49,8 +49,7 @@ export default {
     "Frontend Developer",
   ],
   //   Header Paragraph
-  headerParagraph:
-    `Highly effective at developing, designing and standardizing designs according to company brand and objectives. Ready to bring ${yearsOfExperience} of related experience to a growth-oriented team.`,
+  headerParagraph: `Highly effective at developing, designing and standardizing designs according to company brand and objectives. Ready to bring ${yearsOfExperience} of related experience to a growth-oriented team.`,
 
   //Contact Email
   contactEmail: "sujoyduttajad@gmail.com",
@@ -120,8 +119,7 @@ export default {
   // About Secton --------------
   aboutParaOne:
     "I'm a geeky programmer and an enthusiastic learner. A Goal-oriented Web Developer who brings a strong commitment to collaboration and solutions-oriented problem-solving in Frontend Development and UI/UX design. I am always looking forward to building something thought-provoking.",
-  aboutParaTwo:
-    `Bringing a total of ${yearsOfExperience} of experience in Frontend development that comprises an impresive tech-stack of Next.js, React, Redux, Node, SASS, MongoDB, JavaScript, HTML, CSS, Bootstrap, Styled-components, Tailwind-css`,
+  aboutParaTwo: `Bringing a total of ${yearsOfExperience} of experience in Frontend development that comprises an impresive tech-stack of Next.js, React, Redux, Node, SASS, MongoDB, JavaScript, HTML, CSS, Bootstrap, Styled-components, Tailwind-css`,
   aboutParaThree:
     "Love to do photographeraphy(Landscapes and Cityscapes) also enjoy playing guitar in my free time. As a fun fact I'm learning cooking these days.",
   aboutImage: profilePic,
@@ -139,8 +137,7 @@ export default {
       img: htmlIcon,
       primaryColor: "#cf4822",
       secondColor: "#ebebeb",
-      para:
-        `I have ${yearsOfExperience} of experience in creating websites and apps with HTML, I learned the concepts early but as I develop HTML5 came and continued to explore the standard markup language for the Web.`,
+      para: `I have ${yearsOfExperience} of experience in creating websites and apps with HTML, I learned the concepts early but as I develop HTML5 came and continued to explore the standard markup language for the Web.`,
     },
     {
       id: 2,
@@ -157,8 +154,7 @@ export default {
       img: jsIcon,
       primaryColor: "#f5de19",
       secondColor: "#000000",
-      para:
-        `JavaScript language is the backbone of the web, that's constantly changing and improving its ECMA scripts. For ${yearsOfExperience} I have been learning and building a lot of projects, games, and web pages with the amalgamation of JavaScript, HTML, and CSS.`,
+      para: `JavaScript language is the backbone of the web, that's constantly changing and improving its ECMA scripts. For ${yearsOfExperience} I have been learning and building a lot of projects, games, and web pages with the amalgamation of JavaScript, HTML, and CSS.`,
     },
     {
       id: 4,
@@ -166,8 +162,7 @@ export default {
       img: reactIcon,
       primaryColor: "#00d8ff",
       secondColor: "#fff",
-      para:
-        `React is a frontend library based on JavaScript. I like about the way React allows users to focus on creativity and not too much on the base implementation. For the past ${yearsOfExperience} I had build multiple React projects from small games to medium-scale projects which includes a complete react ecosystem.`,
+      para: `React is a frontend library based on JavaScript. I like about the way React allows users to focus on creativity and not too much on the base implementation. For the past ${yearsOfExperience} I had build multiple React projects from small games to medium-scale projects which includes a complete react ecosystem.`,
     },
     {
       id: 5,
