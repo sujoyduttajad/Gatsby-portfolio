@@ -4,7 +4,9 @@ A smooth scroll minimalistic dev portfolio built with Gatsby.js used Yarn to man
 
 <!-- Things to do 
 
-Apparantly
+  1. Add new Projects
+  2. Improve user interaction with the projects
+  3. Add new Section - Certifications
 
 
 -->
