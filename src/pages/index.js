@@ -11,13 +11,13 @@ import Navbar from "../components/Navbar"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Portfolio Template" />
+    <SEO title="Sujoy Dutta Portfolio" />
     <Navbar />
     <Header />
     <Projects />
-    <About />
     <Skills />
     <WorkHistory />
+    <About />
     <Footer />
   </Layout>
 )
