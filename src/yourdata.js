@@ -11,6 +11,10 @@ import next from "./images/NextJS.svg"
 import gatsby from "./images/Gatsby.svg"
 import sanity from "./images/logos_sanity.svg"
 import d3 from "./images/logos_d3.svg"
+import mongodb from "./images/mongodb-icon.svg"
+import ts from "./images/typescript.svg"
+import postgres from "./images/logos_postgresql.svg"
+import go from "./images/vscode-icons_file-type-go.svg"
 // projects Icon
 import reduxGame from "./images/reduxCardGame.png"
 import chatApp from "./images/chatApp.png"
@@ -216,6 +220,31 @@ export default {
       para:
         "D3.js is an open-source JavaScript library that I have used for building lot of charts and graphs which gave me a lot of knowledge on data-handling and data visualisation",
     },
+    {
+      id: 13,
+      header: "MongoDB",
+      img: mongodb,
+      primaryColor: "#599636",
+      secondColor: "#C2BFBF",
+      para:
+        "Worked on numerous projects integrating MongoDB Node.js driver with Express and also using the mongosh tool to test data sets",
+    },
+    {
+      id: 14,
+      header: "PostgreSQL",
+      img: postgres,
+      primaryColor: "#336791",
+      secondColor: "#fff",
+      para: "",
+    },
+    {
+      id: 15,
+      header: "TypeScript",
+      img: ts,
+      primaryColor: "#3178C6",
+      secondColor: "#f1f1f1",
+      para: "",
+    },
   ],
 
   // ----- End Skills Section --------------------------
@@ -229,11 +258,12 @@ export default {
       cardTitle: "Makse Services Pvt. Ltd.",
       cardSubtitle: "Frontend Developer, (Location - Bangalore, Karnataka)",
       cardDetailedText: [
-        " Currently working as full-time Front End Developer and UI designer on an AI enabled Performance management application based on the Client requirements.",
-        " Developed designs and applications to meet specific requirements, such as AI-enabled products with unique Drag-n-Drop layouts and enhanced Serverless solutions to handle user traffic.",
-        " Employed user-oriented visuals and features using front-end frameworks like Next.js and React.js to provide increased dynamic web-based performance.",
-        " Built user interfaces, sitemaps, wireframes, mockups, prototypes using Figma , data visualizations using D3.js. Also worked and created a complete Drag-n-Drop and resizable scheduler system using Next.js, Material-UI, React-DnD, Redux, Redux-Thunk, Context API, Express, Node, and designed overall user experience, resulting in a 36% increase in sales.",
-        " Achieved the individual contribution award or Pineapple award by completing 100% target on delivering a fantastic result on a complex project that I have been working for over a year with accuracy and efficiency.",
+        " Currently working as a Front End Developer and UI designer on an AI enabled Performance management application based on the client requirements.",
+        " Employed user-oriented visuals and features using front-end frameworks like Next.js(a React based Framework) to provide increased dynamic web-based performance.",
+        " Built user interfaces, sitemaps, wireframes, mockups, prototypes using Figma , data visualizations using D3.js",
+        " Enabled CRUD operations with Next.js SSR and PostgreSQL database and designed schema for the databse for all the dynamic entities",
+        " Tech Stack I worked on are - Next.js, React hook form, Material-UI, React-DnD, Redux, Redux-Thunk, PostgreSQL, Node, and designed overall user experience, resulting in a 36% increase in sales.",
+        " Achieved the individual contribution award or Pineapple award by completing 100% target on delivering a fantastic result on a complex project.",
         " Managed full-cycle design tasks, handling phases from conception to completion while maintaining guidelines throughout.",
       ],
       url: MakseGroup,
