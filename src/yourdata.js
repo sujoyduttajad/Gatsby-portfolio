@@ -11,7 +11,6 @@ import next from "./images/NextJS.svg"
 import gatsby from "./images/Gatsby.svg"
 import sanity from "./images/logos_sanity.svg"
 import d3 from "./images/logos_d3.svg"
-
 // projects Icon
 import reduxGame from "./images/reduxCardGame.png"
 import chatApp from "./images/chatApp.png"
@@ -19,18 +18,15 @@ import projectMgm from "./images/projectManager.png"
 import landingPage from "./images/landingPage.png"
 import BeatsUp from "./images/BeatsUp.png"
 import GatsbyPortfolio from "./images/gatsbyPortfolio.png"
-
 // Social Icon
 import githubIcon from "./images/github.svg"
 import profilePic from "./images/profilePic.png"
 import linkedin from "./images/Linkedin.svg"
 import twitter from "./images/twitter.svg"
-
 // Company Icon
 import Wipro from "./images/wipro.png"
 import metricstream from "./images/metricstream.png"
 import MakseGroup from "./images/MakseGroup.png"
-
 import { formatDistanceToNow } from "date-fns"
 
 const yearsOfExperience = formatDistanceToNow(new Date(2018, 6, 2), {
@@ -48,10 +44,7 @@ export default {
     //Line 3 For Header
     "Frontend Developer",
   ],
-  //   Header Paragraph
   headerParagraph: `Highly effective at developing, designing and standardizing designs according to company brand and objectives. Ready to bring ${yearsOfExperience} of related experience to a growth-oriented team.`,
-
-  //Contact Email
   contactEmail: "sujoyduttajad@gmail.com",
 
   // End Header Details -----------------------
@@ -59,57 +52,45 @@ export default {
   // Project Section ------------------------
   projects: [
     {
-      title: "React Landing page", //Project Title - Add Your Project Title Here
+      title: "React Landing page",
       para:
         "This gorgeous responsive website is a static landing page built with React, styled-components, react-router, and react hooks. All the components are reusable and can be used for any dynamic content. It's fully responsive for all the platforms and hosted in netlify.",
-      //Project Image
       imageSrc: landingPage,
-      //Project URL
       url: "https://github.com/sujoyduttajad/Landing-Page-React",
     },
     {
-      title: "BeatsUp Music App", //Project Title - Add Your Project Title Here
+      title: "BeatsUp Music App",
       para:
         "A Design to Development music app for chill lofi-beats genre from scratch, built with React and state managed by Redux. It fetches a list of mp3 files organized in a grid based layout and styled custom SASS & Material-UI components, animation by lotti-interactivity and navigation by react-router.",
-      //Project Image
       imageSrc: BeatsUp,
-      //Project URL
       url: "https://cryptic-obscure96-fb3bb1.netlify.app/",
     },
     {
-      title: "Join Chat App", //Project Title - Add Your Project Title Here
+      title: "Join Chat App",
       para:
         "My goal was to build a real-time Chat app that allows users to create their own spaces called room to interact with a group of people and send emojis. This app is build using web sockets that Socket.io uses internally.",
-      //Project Image
       imageSrc: chatApp,
-      //Project URL
       url: "https://github.com/sujoyduttajad/Socket.io-Chat-Application",
     },
     {
-      title: "Redux Memory Game", //Project Title - Add Your Project Title Here
+      title: "Redux Memory Game",
       para:
         "A memory game build with React-Redux core functionalities, this app tests the true skills of an ideatic memory",
-      //Project Image
       imageSrc: reduxGame,
-      //Project URL
       url: "https://github.com/sujoyduttajad/Redux-Card-game",
     },
     {
-      title: "Project Management Tool", //Project Title - Add Your Project Title Here
+      title: "Project Management Tool",
       para:
         "This app is a Project Management tool with authentication and cloud functionalities where users can create Projects, edit them, delete them, and keep a track of them all in one SPA. To build this I used React, Redux, React-Redux, Thunk, and Firebase. This app will have authentication(sign-up & sign-in) and features like Cloud security, Route Guarding, Cloud functions.",
-      //Project Image
       imageSrc: projectMgm,
-      //Project URL
       url: "https://github.com/sujoyduttajad/Project-management-tool",
     },
     {
-      title: "Gatsby Portfolio", //Project Title - Add Your Project Title Here
+      title: "Gatsby Portfolio",
       para:
         "A smooth scroll minimalistic dev portfolio built with Gatsby.js used Yarn to manage the packages that includes react-helmet for managing SEO, for animation I used react-reveal and react-scroll, SASS for stylling, a bunch of Gatsby plugins.",
-      //Project Image
       imageSrc: GatsbyPortfolio,
-      //Project URL
       url: "https://github.com/sujoyduttajad/Gatsby-portfolio",
     },
   ],
@@ -126,10 +107,7 @@ export default {
 
   //   End About Section ---------------------
 
-  // Skills Section ---------------
-
-  //   Import Icons from the top and link it here
-
+  //   Skills Section ---------------
   skills: [
     {
       id: 1,
