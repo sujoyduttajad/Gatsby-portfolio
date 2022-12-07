@@ -106,7 +106,7 @@ export default {
     {
       title: "Gatsby Portfolio", //Project Title - Add Your Project Title Here
       para:
-        "A smooth scroll minimalistic dev portfolio built with Gatsby.js used Yarn to manage the packages  that includes react-helmet for managing SEO, for animation I used react-reveal and react-scroll, SASS for stylling, a bunch of Gatsby plugins.",
+        "A smooth scroll minimalistic dev portfolio built with Gatsby.js used Yarn to manage the packages that includes react-helmet for managing SEO, for animation I used react-reveal and react-scroll, SASS for stylling, a bunch of Gatsby plugins.",
       //Project Image
       imageSrc: GatsbyPortfolio,
       //Project URL
@@ -118,10 +118,10 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "I'm a geeky programmer and an enthusiastic learner. A Goal-oriented Web Developer who brings a strong commitment to collaboration and solutions-oriented problem-solving in Frontend Development and UI/UX design. I am always looking forward to building something thought-provoking.",
+    "I'm a goal-oriented Web Developer who brings a strong commitment to collaboration and solutions-oriented problem-solving in Frontend Development and UI/UX design. I am always looking forward to building something thought-provoking.",
   aboutParaTwo: `Bringing a total of ${yearsOfExperience} of experience in Frontend development that comprises an impresive tech-stack of Next.js, React, Redux, Node, SASS, MongoDB, JavaScript, HTML, CSS, Bootstrap, Styled-components, Tailwind-css`,
   aboutParaThree:
-    "Love to do photographeraphy(Landscapes and Cityscapes) also enjoy playing guitar in my free time. As a fun fact I'm learning cooking these days.",
+    "Love to do photography(Landscapes and Cityscapes) also enjoy playing guitar in my free time. As a fun fact I'm learning cooking these days.",
   aboutImage: profilePic,
 
   //   End About Section ---------------------
@@ -146,7 +146,7 @@ export default {
       primaryColor: "#1572b6",
       secondColor: "#ebebeb",
       para:
-        "CSS is my favourite part of the web, as proper knowledge of CSS can completely change a website's perspective. For me styling is always my priority, my experience include from working with basic CSS, modules, SASS, Bootstrap, Material-UI, and Tailwind-CSS.",
+        "CSS is my favourite part of the web, as proper knowledge of CSS can completely change a users perspective. For me styling is always my priority, my experience include from working with basic CSS, modules, SASS, Bootstrap, Material-UI, and Tailwind-CSS.",
     },
     {
       id: 3,
@@ -154,7 +154,7 @@ export default {
       img: jsIcon,
       primaryColor: "#f5de19",
       secondColor: "#000000",
-      para: `JavaScript language is the backbone of the web, that's constantly changing and improving its ECMA scripts. For ${yearsOfExperience} I have been learning and building a lot of projects, games, and web pages with the amalgamation of JavaScript, HTML, and CSS.`,
+      para: `For ${yearsOfExperience} I have been learning and building a lot of projects, games, and web pages with the amalgamation of JavaScript, HTML, and CSS.`,
     },
     {
       id: 4,
