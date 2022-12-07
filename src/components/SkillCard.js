@@ -6,6 +6,7 @@ import DialogTitle from "@material-ui/core/DialogTitle"
 import MuiDialogContent from "@material-ui/core/DialogContent"
 import Tooltip from "@material-ui/core/Tooltip"
 import Fade from "react-reveal/Fade"
+import Zoom from "react-reveal/Zoom"
 
 const useStyles = makeStyles({
   button: {
@@ -79,36 +80,38 @@ const SkillCard = ({ skill }) => {
             {skill.header}
           </Button>
         </BootstrapTooltip>
-        <Dialog
-          onClose={handleClose}
-          aria-labelledby="customized-dialog-title"
-          open={open}
-        >
-          <DialogTitle
-            className={classes.dialogTitle}
-            id="customized-dialog-title"
+        <Zoom>
+          <Dialog
             onClose={handleClose}
-            disableTypography
-            style={{
-              background: `${skill.primaryColor}`,
-              color: `${skill.secondColor}`,
-            }}
+            aria-labelledby="customized-dialog-title"
+            open={open}
           >
-            <h3 className="span-header">{skill.header}</h3>
-            <ColorButton variant="outlined" onClick={handleClose}>
-              Close
-            </ColorButton>
-          </DialogTitle>
-          <DialogContent
-            dividers
-            style={{
-              background: `${skill.primaryColor}`,
-              color: `${skill.secondColor}`,
-            }}
-          >
-            <p className="skill-content">{skill.para}</p>
-          </DialogContent>
-        </Dialog>
+            <DialogTitle
+              className={classes.dialogTitle}
+              id="customized-dialog-title"
+              onClose={handleClose}
+              disableTypography
+              style={{
+                background: `${skill.primaryColor}`,
+                color: `${skill.secondColor}`,
+              }}
+            >
+              <h3 className="span-header">{skill.header}</h3>
+              <ColorButton variant="outlined" onClick={handleClose}>
+                Close
+              </ColorButton>
+            </DialogTitle>
+            <DialogContent
+              dividers
+              style={{
+                background: `${skill.primaryColor}`,
+                color: `${skill.secondColor}`,
+              }}
+            >
+              <p className="skill-content">{skill.para}</p>
+            </DialogContent>
+          </Dialog>
+        </Zoom>
       </div>
     </Fade>
   )
