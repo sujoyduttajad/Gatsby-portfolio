@@ -12,9 +12,10 @@ import gatsby from "./images/Gatsby.svg"
 import sanity from "./images/logos_sanity.svg"
 import d3 from "./images/logos_d3.svg"
 import mongodb from "./images/mongodb-icon.svg"
-import ts from "./images/typescript.svg"
-import postgres from "./images/logos_postgresql.svg"
-import go from "./images/vscode-icons_file-type-go.svg"
+// import ts from "./images/typescript.svg"
+// import postgres from "./images/logos_postgresql.svg"
+// import go from "./images/vscode-icons_file-type-go.svg"
+
 // projects Icon
 import reduxGame from "./images/reduxCardGame.png"
 import chatApp from "./images/chatApp.png"
@@ -229,22 +230,22 @@ export default {
       para:
         "Worked on numerous projects integrating MongoDB Node.js driver with Express and also using the mongosh tool to test data sets",
     },
-    {
-      id: 14,
-      header: "PostgreSQL",
-      img: postgres,
-      primaryColor: "#336791",
-      secondColor: "#fff",
-      para: "",
-    },
-    {
-      id: 15,
-      header: "TypeScript",
-      img: ts,
-      primaryColor: "#3178C6",
-      secondColor: "#f1f1f1",
-      para: "",
-    },
+    // {
+    //   id: 14,
+    //   header: "PostgreSQL",
+    //   img: postgres,
+    //   primaryColor: "#336791",
+    //   secondColor: "#fff",
+    //   para: "",
+    // },
+    // {
+    //   id: 15,
+    //   header: "TypeScript",
+    //   img: ts,
+    //   primaryColor: "#3178C6",
+    //   secondColor: "#f1f1f1",
+    //   para: "",
+    // },
   ],
 
   // ----- End Skills Section --------------------------
