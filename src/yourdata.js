@@ -104,7 +104,10 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "I'm a goal-oriented Web Developer who brings a strong commitment to collaboration and solutions-oriented problem-solving in Frontend Development and UI/UX design. I am always looking forward to building something thought-provoking.",
+    `I'm a skilled Frontend Developer with a passion for transforming business requirements 
+    into meaningful tech applications. With a deep understanding of both technology and business, 
+    I create user-friendly and visually appealing websites and web applications.
+    You can find me on Twitter and GitHub, where I share my latest projects and insights.`,
   aboutParaTwo: `Bringing a total of ${yearsOfExperience} of experience in Frontend development that comprises an impresive tech-stack of Next.js, React, Redux, Node, SASS, MongoDB, JavaScript, HTML, CSS, Bootstrap, Styled-components, Tailwind-css`,
   aboutParaThree:
     "Love to do photography(Landscapes and Cityscapes) also enjoy playing guitar in my free time. As a fun fact I'm learning cooking these days.",
