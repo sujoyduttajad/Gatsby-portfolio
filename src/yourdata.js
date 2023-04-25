@@ -103,8 +103,7 @@ export default {
   // End Projects Section -----------------------
 
   // About Secton --------------
-  aboutParaOne:
-    `I'm a skilled Frontend Developer with a passion for transforming business requirements 
+  aboutParaOne: `I'm a skilled Frontend Developer with a passion for transforming business requirements 
     into meaningful tech applications. With a deep understanding of both technology and business, 
     I create user-friendly and visually appealing websites and web applications.
     You can find me on Twitter and GitHub, where I share my latest projects and insights.`,
@@ -207,12 +206,12 @@ export default {
     },
     {
       id: 11,
-      header: "CMS",
-      img: sanity,
-      primaryColor: "#f04939",
-      secondColor: "#f1f1f1",
+      header: "MongoDB",
+      img: mongodb,
+      primaryColor: "#599636",
+      secondColor: "#C2BFBF",
       para:
-        "Worked with a lot of CMS but Sanity CMS is my personnel favourite as it provides a structured approach to content authoring, providing a concise number of features to manage content",
+        "Worked on numerous projects integrating MongoDB Node.js driver with Express and also using the mongosh tool to test data sets",
     },
     {
       id: 12,
@@ -224,15 +223,7 @@ export default {
       para:
         "D3.js is an open-source JavaScript library that I have used for building lot of charts and graphs which gave me a lot of knowledge on data-handling and data visualisation",
     },
-    {
-      id: 13,
-      header: "MongoDB",
-      img: mongodb,
-      primaryColor: "#599636",
-      secondColor: "#C2BFBF",
-      para:
-        "Worked on numerous projects integrating MongoDB Node.js driver with Express and also using the mongosh tool to test data sets",
-    },
+
     // {
     //   id: 14,
     //   header: "PostgreSQL",
